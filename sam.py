@@ -14,6 +14,7 @@ index = VectorStoreIndex.from_documents(
     documents,
 )
 
+
 query_engine = index.as_query_engine()
 response = query_engine.query("How do I explode the universe?")
 print(response)
