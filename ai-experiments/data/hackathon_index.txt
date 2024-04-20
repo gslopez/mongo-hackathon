@@ -1,0 +1,494 @@
+Event Get 50% off your ticket to MongoDB.local NYC on May 2. Use code Web50![
+Learn more >> ](https://www.mongodb.com/events/mongodb-local/nyc)
+
+[ ![MongoDB
+logo](https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-
+horizontal_default_slate_blue.svg?auto=format%252Ccompress)
+](https://www.mongodb.com)
+
+Developer Articles & Topics
+
+  * General Information
+  * All Documentation
+  * Realm Documentation
+  * Developer Articles & Topics
+  * Community Forums
+  * Blog
+  * University
+
+![search
+icon](https://webimages.mongodb.com/_com_assets/cms/krc3hljsdwdfd2w5d-web-
+actions-search.svg?auto=format%252Ccompress)
+
+  * Products
+
+Platform
+
+[
+![atlas_product_family](https://webimages.mongodb.com/_com_assets/icons/atlas_product_family.svg)
+Atlas Build on a developer data platform ](https://www.mongodb.com/atlas)
+
+Platform Services
+
+[![atlas_database](https://webimages.mongodb.com/_com_assets/icons/atlas_database.svg)DatabaseDeploy
+a multi-cloud
+database](https://www.mongodb.com/atlas/database)[![atlas_search](https://webimages.mongodb.com/_com_assets/icons/atlas_search.svg)SearchDeliver
+engaging search
+experiences](https://www.mongodb.com/atlas/search)[![mdb_vector_search](https://webimages.mongodb.com/_com_assets/icons/mdb_vector_search.svg)Vector
+SearchDesign intelligent apps with
+GenAI](https://www.mongodb.com/products/platform/atlas-vector-
+search)[![atlas_stream_processing](https://webimages.mongodb.com/_com_assets/icons/atlas_stream_processing.svg)Stream
+Processing (Preview)Unify data in motion and data at
+rest](https://www.mongodb.com/products/platform/atlas-stream-processing)
+
+Tools
+
+[![mdb_compass](https://webimages.mongodb.com/_com_assets/icons/mdb_compass.svg)CompassWork
+with MongoDB data in a
+GUI](https://www.mongodb.com/products/tools/compass)[![atlas_integration](https://webimages.mongodb.com/_com_assets/icons/atlas_integration.svg)IntegrationsIntegrations
+with third-party
+services](https://cloud.mongodb.com/ecosystem/?filter=integration)[![mdb_migrator](https://webimages.mongodb.com/_com_assets/icons/mdb_migrator.svg)Relational
+MigratorMigrate to MongoDB with
+confidence](https://www.mongodb.com/products/relational-migrator)
+
+Self Managed
+
+[![enterprise_advanced_product
+family](https://webimages.mongodb.com/_com_assets/icons/enterprise_advanced_product
+family.svg)Enterprise AdvancedRun and manage MongoDB
+yourself](https://www.mongodb.com/products/mongodb-enterprise-
+advanced)[![community_edition_product_family](https://webimages.mongodb.com/_com_assets/icons/community_edition_product_family.svg)Community
+EditionDevelop locally with
+MongoDB](https://mongodb.com/try/download/community)
+
+Build with MongoDB Atlas
+
+Get started for free in minutes
+
+[ Sign Up ](https://www.mongodb.com/cloud/atlas/register)
+
+Test Enterprise Advanced
+
+Develop with MongoDB on-premises
+
+[Download](https://www.mongodb.com/try/download/enterprise)
+
+Try Community Edition
+
+Explore the latest version of MongoDB
+
+[Download](https://www.mongodb.com/try/download/community)
+
+  * Resources
+
+Documentation
+
+[ Atlas DocumentationGet started using Atlas
+](https://www.mongodb.com/docs/atlas/)[Server DocumentationLearn to use
+MongoDB](https://www.mongodb.com/docs/manual/)[Start With GuidesGet step-by-
+step guidance for key tasks](https://www.mongodb.com/docs/guides/)
+
+[Tools and ConnectorsLearn how to connect to
+MongoDB](https://www.mongodb.com/docs/tools-and-connectors/)[MongoDB
+DriversUse drivers and libraries for
+MongoDB](https://www.mongodb.com/docs/drivers/)
+
+[
+![industry_ai](https://webimages.mongodb.com/_com_assets/icons/industry_ai.svg)AI
+Resources HubGet help building the next big thing in AI with MongoDB arrow-
+right ](https://www.mongodb.com/library/use-cases/artificial-intelligence)
+
+Connect
+
+[![atlas_product_family](https://webimages.mongodb.com/_com_assets/icons/atlas_product_family.svg)Developer
+CenterExplore a wide range of developer
+resources](https://www.mongodb.com/developer/)[![general_events_ask_the_experts](https://webimages.mongodb.com/_com_assets/icons/general_events_ask_the_experts.svg)CommunityJoin
+a global community of
+developers](https://www.mongodb.com/community/)[![general_content_tutorial](https://webimages.mongodb.com/_com_assets/icons/general_content_tutorial.svg)Courses
+and CertificationLearn for free from
+MongoDB](https://learn.mongodb.com/)[![general_events_session](https://webimages.mongodb.com/_com_assets/icons/general_events_session.svg)Webinars
+and EventsFind a webinar or event near you](https://www.mongodb.com/events-
+webinars-overview)
+
+  * Solutions
+
+Use cases
+
+[Artificial Intelligence](https://www.mongodb.com/use-cases/artificial-
+intelligence)[Edge Computing](https://www.mongodb.com/use-cases/atlas-for-the-
+edge)[Internet of Things](https://www.mongodb.com/use-cases/internet-of-
+things)[Mobile](https://www.mongodb.com/use-
+cases/mobile)[Payments](https://www.mongodb.com/use-cases/payments)[Serverless
+Development](https://www.mongodb.com/use-cases/serverless)
+
+Industries
+
+[Financial Services](https://www.mongodb.com/industries/financial-
+services)[Telecommunications](https://www.mongodb.com/industries/telecommunications)[Healthcare](https://www.mongodb.com/industries/healthcare)[Retail](https://www.mongodb.com/industries/retail)[Public
+Sector](https://www.mongodb.com/industries/public-
+sector)[Manufacturing](https://www.mongodb.com/industries/manufacturing)
+
+[Solutions LibraryOrganized and tailored solutions to kick-start projects
+arrow-right ](https://www.mongodb.com/solutions/solutions-library)
+
+Developer Data Platform
+
+Accelerate innovation at scale
+
+[ Learn more arrow-right ](https://www.mongodb.com/solutions/developer-data-
+platform)
+
+Startups and AI Innovators
+
+For world-changing ideas and AI pioneers
+
+[Learn more arrow-right ](https://www.mongodb.com/startups)
+
+Customer Case Studies
+
+Hear directly from our users
+
+[See Stories arrow-right ](https://www.mongodb.com/who-uses-mongodb)
+
+  * Company
+
+[CareersStart your next
+adventure](https://www.mongodb.com/company/careers)[BlogRead articles and
+announcements](https://www.mongodb.com/blog)[NewsroomRead press releases and
+news stories](https://www.mongodb.com/pressroom)
+
+[PartnersLearn about our partner
+ecosystem](https://www.mongodb.com/partners)[LeadershipMeet our executive
+team](https://www.mongodb.com/leadership)[CompanyLearn more about who we
+are](https://www.mongodb.com/company)
+
+Contact Us
+
+Reach out to MongoDB
+
+[Let’s chat arrow-right ](https://www.mongodb.com/contact)
+
+Investors
+
+Visit our investor portal
+
+[Learn more arrow-right ](https://investors.mongodb.com/)
+
+  * [ Pricing ](https://www.mongodb.com/pricing)
+
+![Search](https://webimages.mongodb.com/_com_assets/cms/lmqnddlajolelmbus-
+SearchIcon.svg?auto=format%252Ccompress) [ Support
+](https://www.mongodb.com/support) [Sign
+In](https://account.mongodb.com/account/login?fromURI=https%3A%2F%2Fwww.mongodb.com%2Fdeveloper%2Fauth%2Fsignin%2F%3FfromPagePath%3D%2Fevents%2Fmongodb-
+genai-hackathon-sf-april-20-2024%2F)
+
+[Try Free](https://www.mongodb.com/cloud/atlas/register)
+
+menu-vertical
+
+[ ![MongoDB
+logo](https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-
+horizontal_default_slate_blue.svg?auto=format%252Ccompress)
+](https://www.mongodb.com)
+
+![Search](https://webimages.mongodb.com/_com_assets/cms/lmqnddlajolelmbus-
+SearchIcon.svg?auto=format%252Ccompress)
+
+[ MongoDB Developer ](/developer/) chevron-down
+
+  * Topics
+
+    * Languages plus
+    * Technologies plus
+    * Products plus
+    * Expertise Levels plus
+    * [All Topics](/developer/topics/)
+
+  * [Documentation](https://www.mongodb.com/docs/)
+
+  * [Articles](/developer/articles/)
+
+  * [Tutorials](/developer/tutorials/)
+
+  * [Events](/developer/events/)
+
+  * [Code Examples](/developer/code-examples/)
+
+  * [Podcasts](https://podcasts.mongodb.com/public/115/The-MongoDB-Podcast-b02cf624)
+
+  * [MongoDB TV](/developer/videos/)
+
+[ MongoDB Developer ](/developer/)
+
+  * Topics chevron-down
+
+  * [Documentation](https://www.mongodb.com/docs/)
+
+  * [Articles](/developer/articles/)
+
+  * [Tutorials](/developer/tutorials/)
+
+  * [Events](/developer/events/)
+
+  * [Code Examples](/developer/code-examples/)
+
+  * [Podcasts](https://podcasts.mongodb.com/public/115/The-MongoDB-Podcast-b02cf624)
+
+  * [MongoDB TV](/developer/videos/)
+
+close
+
+###### [Atlas ](/developer/products/atlas/)
+
+[ plus
+](https://account.mongodb.com/account/login?fromURI=https%3A%2F%2Fwww.mongodb.com%2Fdeveloper%2Fauth%2Fsignin%2F%3FfromPagePath%3D%2Fevents%2Fmongodb-
+genai-hackathon-sf-april-20-2024%2F)
+
+Sign in to follow topics
+
+[ Articles ](/developer/products/atlas/articles/)
+
+[Code Examples](/developer/products/atlas/code-examples/)
+
+[Documentation external ](https://www.mongodb.com/docs/atlas/getting-started/)
+
+[Events](/developer/products/atlas/events/)
+
+[News & Announcements](/developer/products/atlas/news/)
+
+[Podcasts](/developer/products/atlas/podcasts/)
+
+[Quickstarts](/developer/products/atlas/quickstarts/)
+
+[Tutorials](/developer/products/atlas/tutorials/)
+
+[Videos](/developer/products/atlas/videos/)
+
+[ MongoDB Developer Center ](/developer/) chevron-right
+
+[Developer Topics](/developer/topics/) chevron-right
+
+[Products](/developer/products/) chevron-right
+
+[Atlas](/developer/products/atlas/) chevron-right
+
+[Events](/developer/products/atlas/events/)
+
+# MongoDB GenAI Hackathon SF
+
+[Atlas](/developer/products/atlas/)
+
+[![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e)![Facebook
+Icon](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![Facebook
+Icon](/developer/facebook.svg)](https://www.facebook.com/sharer.php?u= "Share
+on
+Facebook")[![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e)![twitter
+icon](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![twitter
+icon](/developer/twitter.svg)](https://twitter.com/intent/tweet?url=&text=MongoDB%20GenAI%20Hackathon%20SF%20%23MongoDB
+"Share on
+Twitter")[![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e)![linkedin
+icon](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![linkedin
+icon](/developer/linkedin.svg)](https://www.linkedin.com/shareArticle?mini=true&url=&title=MongoDB
+GenAI Hackathon SF&summary=MongoDB GenAI Hackathon SF&source=MongoDB "Share on
+LinkedIn")
+
+Industry Event | In-Person
+
+calendar
+
+###### When
+
+Apr 20, 2024 - Apr 21, 2024
+
+location
+
+###### Location
+
+San Francisco, CA, USA
+
+[More Info](https://lu.ma/MongoDB-GenAI-SF)
+
+![feature_image](/developer/_next/image/?url=https%3A%2F%2Fimages.contentstack.io%2Fv3%2Fassets%2Fblt39790b633ee0d5a7%2Fbltbe0c26c8129301a6%2F6621a60ec9de46f9dad45b7a%2FScreenshot_2024-04-18_at_4.00.13_PM.png&w=3840&q=75)
+
+Welcome to the MongoDB GenAI Hackathon! Below are all the resources you will
+need for the day.
+
+## Discord Channel
+
+[https://discord.gg/Ekmcn2f3](https://discord.gg/Ekmcn2f3)
+
+## MongoDB
+
+MongoDB is renowned in the industry as a top-tier operational database. With
+[MongoDB Atlas](https://www.mongodb.com/lp/cloud/atlas/), we have unified
+MongoDB’s operational and vector database capabilities into a single unified
+platform. With Atlas, you can combine the benefits of a flexible document
+model and an extensive aggregation framework with vector search to build
+powerful AI applications for various use cases. As enterprises go from RAG to
+agents, MongoDB Atlas can also serve as long and short-term memory for agents.
+
+**Lightning Talk**
+
+  * [Llama Index and RAG Getting Started](https://github.com/mongodb-developer/GenAI-Showcase/blob/main/notebooks/rag/building_RAG_with_LlamaIndex_and_MongoDB_Vector_Database.ipynb) by [John Willis](https://www.linkedin.com/in/johnwillisatlanta/), Author & Consultant, MongoDB
+
+**Quickstarts**
+
+  * [Getting started with MongoDB Atlas and Python](https://github.com/mongodb-developer/mongodb-atlas-python-quickstart/blob/main/quickstart-1-getting-started-atlas-python.ipynb)
+
+  * [How to Perform Semantic Search on Your Data Using MongoDB Atlas](https://www.mongodb.com/docs/atlas/atlas-vector-search/tutorials/vector-search-tutorial/#std-label-vector-search-tutorial)
+
+**Credits**
+
+To get $100 Atlas credits, do the following:
+
+  * Sign-up for or login to your [MongoDB Atlas account](http://account.mongodb.com)
+
+  * Click Billing at the top of your [MongoDB Atlas account page](https://account.mongodb.com/).
+
+  * Enter the code provided on-site into the “Apply Code” box at the bottom of the MongoDB Atlas billing page.
+
+**Code Samples**
+
+  * The [GenAI-Showcase GitHub repo](https://github.com/mongodb-developer/GenAI-Showcase/tree/main/notebooks/rag) has several examples of using MongoDB Atlas with frameworks such as LangChain, and LlamaIndex as well as model providers such as OpenAI, Cohere, Hugging Face, etc.
+
+  * [MongoDB Chatbot Framework](https://github.com/mongodb/chatbot) is a set of libraries for building full-stack intelligent chatbot applications using MongoDB Atlas Vector Search.
+
+**Generating Embeddings**
+
+  * [Embeddings Generator](https://github.com/mongodb-developer/GenAI-Showcase/tree/main/tools/embeddings_generator) is a simple tool to add embeddings to a dataset of your choice and ingest them into MongoDB.
+
+**RAG**
+
+  * [How to Choose the Right Embedding Model for RAG](https://www.mongodb.com/developer/products/atlas/choose-embedding-model-rag/)
+
+  * [Building a RAG System using LlamaIndex, OpenAI, and MongoDB Atlas](https://www.mongodb.com/developer/products/atlas/rag-with-polm-stack-llamaindex-openai-mongodb/)
+
+**Chatbots and Agents**
+
+  * [Building a PDF chatbot using Mistral AI and MongoDB Atlas](https://www.mongodb.com/developer/products/mongodb/mistral-ai-integration/)
+
+  * [Building an Interactive RAG Agent with MongoDB Atlas and Function Calling](https://www.mongodb.com/developer/products/atlas/interactive-rag-mongodb-atlas-function-calling-api/)
+
+**Memory**
+
+  * [Adding Semantic Caching and Memory to your RAG Application using MongoDB Atlas and LangChain](https://www.mongodb.com/developer/products/atlas/advanced-rag-langchain-mongodb/)
+
+  * [Adding Memory to your JavaScript RAG application using MongoDB Atlas and LangChain](https://www.mongodb.com/developer/products/atlas/add-memory-to-javascript-rag-application-mongodb-langchain/)
+
+**Miscellaneous**
+
+  * [How to Evaluate Your RAG Application](https://www.mongodb.com/developer/products/atlas/evaluate-llm-applications-rag/)
+
+🏆 Prize for Best Use of [MongoDB Atlas Vector Search](https://mdb.link/AVS-
+hackathon): $1000 PayPal Gift Card for winning team
+
+## Fireworks AI
+
+[Fireworks.ai](http://fireworks.ai/) provides a fast, reliable platform for
+developers to run generative artificial intelligence (AI) models at scale. Use
+Fireworks to provide your users with delightful, responsive experiences by
+delivering up to 4x lower latency than alternative solutions with zero
+compromise on model quality.
+
+  * [Form](https://docs.google.com/forms/d/e/1FAIpQLSdITa5paHYINGbOFB5sqMclnHOYlZP0kZX1lFHZCRFFTngqYg/viewform) to claim $20 Fireworks credits
+
+  * Website: [Fireworks.ai](https://fireworks.ai/) (start with the model [playground](https://fireworks.ai/models) and API [quickstart](https://readme.fireworks.ai/docs/quickstart))
+
+  * [RAG with MongoDB Atlas and Fireworks AI](https://fireworks.ai/blog/optimizing-rag-with-mongodb-atlas-and-fireworks)
+
+  * Embedding models [guide](https://readme.fireworks.ai/docs/querying-embeddings-models)
+
+🏆 Prize for Best Use of [Fireworks AI](https://bit.ly/fireworks-mdb): $1000 in
+credits
+
+## LlamaIndex
+
+LlamaIndex is a simple, flexible data framework for connecting custom data
+sources to large language models (LLMs).
+
+  * LlamaIndex is free to use for Python and TypeScript. Our world-class document parsing API is LlamaParse, which is free for up to 1000 pages/day. You can sign up at [cloud.llamaindex.ai](cloud.llamaindex.ai).
+
+  * [Getting Started Guide](https://www.notion.so/llamaindex/LlamaIndex-hackathon-resource-guide-MongoDB-89aa37f593744a128ac6a4ec0eebfac1)
+
+🏆 Prize for Best Use of [LlamaIndex](https://bit.ly/llamaindex-mdb): $500 Cash
+
+## Upstage
+
+[Upstage](https://www.upstage.ai/) provides a compact yet powerful Solar LLM
+with full-stack RAG components, including layout analysis, groundness checker,
+and embeddings. Use Upstage’s full-stack LLM components to provide a fast and
+efficient end-to-end LLM application.
+
+  * [Developer docs](https://developers.upstage.ai/docs/getting-started/quick-start)
+
+  * [Hackathon deck](https://docs.google.com/presentation/d/1ja56grFchdFHmax9O0T1S6qRZeAQ_OfNQAorV725ZQ8/edit?usp=sharing)
+
+🏆 Prize for Best Use of [Upstage](https://bit.ly/upstageai-console) Full-Stack
+LLM Components: $3000 in credits
+
+* * *
+
+[![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e)![Facebook
+Icon](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![Facebook
+Icon](/developer/facebook.svg)](https://www.facebook.com/sharer.php?u= "Share
+on
+Facebook")[![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e)![twitter
+icon](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![twitter
+icon](/developer/twitter.svg)](https://twitter.com/intent/tweet?url=&text=MongoDB%20GenAI%20Hackathon%20SF%20%23MongoDB
+"Share on
+Twitter")[![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2712%27%20height=%2712%27/%3e)![linkedin
+icon](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![linkedin
+icon](/developer/linkedin.svg)](https://www.linkedin.com/shareArticle?mini=true&url=&title=MongoDB
+GenAI Hackathon SF&summary=MongoDB GenAI Hackathon SF&source=MongoDB "Share on
+LinkedIn")
+
+[See more events](/developer/events/)
+
+calendar
+
+###### When
+
+Apr 20, 2024 - Apr 21, 2024
+
+location
+
+###### Location
+
+San Francisco, CA, USA
+
+[More Info](https://lu.ma/MongoDB-GenAI-SF)
+
+[ ![MongoDB
+logo](https://webimages.mongodb.com/_com_assets/cms/kuyj3d95v5vbmm2f4-horizontal_white.svg?auto=format%252Ccompress)
+](https://www.mongodb.com)
+
+© 2024 MongoDB, Inc.
+
+About
+
+  * [Careers](https://www.mongodb.com/careers)
+  * [Investor Relations](https://investors.mongodb.com)
+  * [Legal Notices](https://www.mongodb.com/legal/legal-notices)
+  * [Privacy Notices](https://www.mongodb.com/legal/privacy-policy)
+  * [Security Information](https://www.mongodb.com/security)
+  * [Trust Center](https://www.mongodb.com/cloud/trust)
+
+Support
+
+  * [Contact Us](https://www.mongodb.com/contact)
+  * [Customer Portal](https://support.mongodb.com/welcome)
+  * [Atlas Status](https://status.mongodb.com/)
+  * [Customer Support](https://www.mongodb.com/support)
+
+Social
+
+  * [ ![](https://webimages.mongodb.com/_com_assets/cms/kr6wrvghw9q75ytq1-github.svg?auto=format%252Ccompress)GitHub ](https://github.com/mongodb)
+  * [![](https://webimages.mongodb.com/_com_assets/cms/kr6wsfh9d9z2m4jvx-stackoverflow.svg?auto=format%252Ccompress)Stack Overflow](https://stackoverflow.com/tags/mongodb/info)
+  * [![](https://webimages.mongodb.com/_com_assets/cms/kr6wsmr3g1ckzd0hs-linkedin.svg?auto=format%252Ccompress)LinkedIn](https://www.linkedin.com/company/mongodbinc/)
+  * [![](https://webimages.mongodb.com/_com_assets/cms/kr6wsxwxsvrivp4q4-youtube.svg?auto=format%252Ccompress)YouTube](https://youtube.com/user/mongodb)
+  * [![](https://webimages.mongodb.com/_com_assets/cms/lrym6kl0k3hc1rjgc-x_light.svg?auto=format%252Ccompress)X](https://twitter.com/mongodb)
+  * [![](https://webimages.mongodb.com/_com_assets/cms/kr6wtbzfgc05d27pb-twitch.svg?auto=format%252Ccompress)Twitch](https://twitch.tv/mongodb/videos)
+  * [![](https://webimages.mongodb.com/_com_assets/cms/kr6wtks9piclp67yr-facebook.svg?auto=format%252Ccompress)Facebook](https://facebook.com/mongodb)
+
+© 2024 MongoDB, Inc.
+

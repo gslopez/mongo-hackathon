@@ -1,0 +1,1638 @@
+Skip to content
+
+[ ![logo](../../_static/assets/LlamaSquareBlack.svg) ](../.. "LlamaIndex")
+
+LlamaIndex
+
+High-Level Concepts
+
+Initializing search
+
+  * [ Home ](../..)
+  * [ Learn ](../../understanding/)
+  * [ Use Cases ](../../use_cases/)
+  * [ Examples ](../../examples/)
+  * [ Component Guides ](../../module_guides/)
+  * [ Advanced Topics ](../../optimizing/production_rag/)
+  * [ API Reference ](../../api_reference/)
+  * [ Open-Source Community ](../../community/integrations/)
+
+[ ![logo](../../_static/assets/LlamaSquareBlack.svg) ](../.. "LlamaIndex")
+LlamaIndex
+
+  * [ Home  ](../..)
+
+Home
+
+    * High-Level Concepts  [ High-Level Concepts  ](./) Table of contents 
+      * Retrieval Augmented Generation (RAG) 
+      * Stages within RAG 
+      * Important concepts within each step 
+        * Loading stage 
+        * Indexing Stage 
+        * Querying Stage 
+        * Putting it all together 
+    * [ Installation and Setup  ](../installation/)
+    * [ How to read these docs  ](../reading/)
+    * Starter Examples  Starter Examples 
+      * [ Starter Tutorial (OpenAI)  ](../starter_example/)
+      * [ Starter Tutorial (Local Models)  ](../starter_example_local/)
+    * [ Discover LlamaIndex Video Series  ](../discover_llamaindex/)
+    * [ Frequently Asked Questions (FAQ)  ](../customization/)
+    * [ Starter Tools  ](../starter_tools/)
+
+Starter Tools
+
+      * [ RAG CLI  ](../starter_tools/rag_cli/)
+  * [ Learn  ](../../understanding/)
+
+Learn
+
+    * [ Using LLMs  ](../../understanding/using_llms/using_llms/)
+    * Loading & Ingestion  Loading & Ingestion 
+      * [ Loading Data (Ingestion)  ](../../understanding/loading/loading/)
+      * [ LlamaHub  ](../../understanding/loading/llamahub/)
+    * [ Indexing & Embedding  ](../../understanding/indexing/indexing/)
+    * [ Storing  ](../../understanding/storing/storing/)
+    * [ Querying  ](../../understanding/querying/querying/)
+    * [ Tracing and Debugging  ](../../understanding/tracing_and_debugging/tracing_and_debugging/)
+    * Evaluating  Evaluating 
+      * [ Evaluating  ](../../understanding/evaluating/evaluating/)
+      * [ Cost Analysis  ](../../understanding/evaluating/cost_analysis/)
+
+Cost Analysis
+
+        * [ Usage Pattern  ](../../understanding/evaluating/cost_analysis/usage_pattern/)
+    * [ Putting it all Together  ](../../understanding/putting_it_all_together/)
+
+Putting it all Together
+
+      * [ Agents  ](../../understanding/putting_it_all_together/agents/)
+      * [ Full-Stack Web Application  ](../../understanding/putting_it_all_together/apps/)
+      * [ Knowledge Graphs  ](../../understanding/putting_it_all_together/graphs/)
+      * [ Q&A; patterns  ](../../understanding/putting_it_all_together/q_and_a/)
+      * [ Structured Data  ](../../understanding/putting_it_all_together/structured_data/)
+      * apps  apps 
+        * [ A Guide to Building a Full-Stack Web App with LLamaIndex  ](../../understanding/putting_it_all_together/apps/fullstack_app_guide/)
+        * [ A Guide to Building a Full-Stack LlamaIndex Web App with Delphic  ](../../understanding/putting_it_all_together/apps/fullstack_with_delphic/)
+      * chatbots  chatbots 
+        * [ How to Build a Chatbot  ](../../understanding/putting_it_all_together/chatbots/building_a_chatbot/)
+      * q_and_a  q_and_a 
+        * [ A Guide to Extracting Terms and Definitions  ](../../understanding/putting_it_all_together/q_and_a/terms_definitions_tutorial/)
+  * [ Use Cases  ](../../use_cases/)
+
+Use Cases
+
+    * [ Agents  ](../../use_cases/agents/)
+    * [ Chatbots  ](../../use_cases/chatbots/)
+    * [ Multi-Modal Applications  ](../../use_cases/multimodal/)
+    * [ Structured Data Extraction  ](../../use_cases/extraction/)
+    * [ General Q&A; ](../../use_cases/q_and_a/)
+    * [ Fine-Tuning  ](../../use_cases/fine_tuning/)
+  * [ Examples  ](../../examples/)
+
+Examples
+
+    * Agents  Agents 
+      * [ 💬🤖 How to Build a Chatbot  ](../../examples/agent/Chatbot_SEC/)
+      * [ Build your own OpenAI Agent  ](../../examples/agent/openai_agent/)
+      * [ OpenAI agent: specifying a forced function call  ](../../examples/agent/openai_forced_function_call/)
+      * [ Building a Custom Agent  ](../../examples/agent/custom_agent/)
+      * [ OpenAI Assistant Advanced Retrieval Cookbook  ](../../examples/agent/openai_assistant_query_cookbook/)
+      * [ Building an Agent around a Query Pipeline  ](../../examples/agent/agent_runner/query_pipeline_agent/)
+      * [ Step-wise, Controllable Agents  ](../../examples/agent/agent_runner/agent_runner/)
+      * [ Controllable Agents for RAG  ](../../examples/agent/agent_runner/agent_runner_rag/)
+      * [ Controllable Agents for RAG  ](../../examples/agent/agent_runner/agent_runner_rag_controllable/)
+      * [ Retrieval-Augmented OpenAI Agent  ](../../examples/agent/openai_agent_retrieval/)
+      * [ ReAct Agent with Query Engine (RAG) Tools  ](../../examples/agent/react_agent_with_query_engine/)
+      * [ OpenAI Assistant Agent  ](../../examples/agent/openai_assistant_agent/)
+      * [ Multi-Document Agents (V1)  ](../../examples/agent/multi_document_agents-v1/)
+      * [ Single-Turn Multi-Function Calling OpenAI Agents  ](../../examples/agent/openai_agent_parallel_function_calling/)
+      * [ ReAct Agent - A Simple Intro with Calculator Tools  ](../../examples/agent/react_agent/)
+      * [ GPT Builder Demo  ](../../examples/agent/agent_builder/)
+      * [ Context-Augmented OpenAI Agent  ](../../examples/agent/openai_agent_context_retrieval/)
+      * [ Multi-Document Agents  ](../../examples/agent/multi_document_agents/)
+      * [ OpenAI Agent with Query Engine Tools  ](../../examples/agent/openai_agent_with_query_engine/)
+      * [ OpenAI Agent + Query Engine Experimental Cookbook  ](../../examples/agent/openai_agent_query_cookbook/)
+      * [ OpenAI Agent Query Planning  ](../../examples/agent/openai_agent_query_plan/)
+      * [ Benchmarking OpenAI Retrieval API (through Assistant Agent)  ](../../examples/agent/openai_retrieval_benchmark/)
+      * [ Building a Multi-PDF Agent using Query Pipelines and HyDE  ](../../examples/agent/agent_runner/agent_around_query_pipeline_with_HyDE_for_PDFs/)
+      * [ Function Calling Mistral Agent  ](../../examples/agent/mistral_agent/)
+      * [ OpenAI Agent with Tool Call Parser  ](../../examples/agent/openai_agent_tool_call_parser/)
+      * [ Controlling Agent Reasoning Loop with Return Direct Tools  ](../../examples/agent/return_direct_agent/)
+      * [ Function Calling Anthropic Agent  ](../../examples/agent/anthropic_agent/)
+      * [ Chain-of-Abstraction LlamaPack  ](../../examples/agent/coa_agent/)
+      * [ Language Agent Tree Search  ](../../examples/agent/lats_agent/)
+    * Callbacks  Callbacks 
+      * [ HoneyHive LlamaIndex Tracer  ](../../examples/callbacks/HoneyHiveLlamaIndexTracer/)
+      * [ PromptLayer Handler  ](../../examples/callbacks/PromptLayerHandler/)
+      * [ Token Counting Handler  ](../../examples/callbacks/TokenCountingHandler/)
+      * [ Llama Debug Handler  ](../../examples/callbacks/LlamaDebugHandler/)
+      * [ Observability with OpenLLMetry  ](../../examples/callbacks/OpenLLMetry/)
+      * [ UpTrain Callback Handler  ](../../examples/callbacks/UpTrainCallback/)
+      * [ Wandb Callback Handler  ](../../examples/callbacks/WandbCallbackHandler/)
+      * [ Aim Callback  ](../../examples/callbacks/AimCallback/)
+      * [ OpenInference Callback Handler + Arize Phoenix  ](../../examples/callbacks/OpenInferenceCallback/)
+      * [ Langfuse Callback Handler  ](../../examples/callbacks/LangfuseCallbackHandler/)
+    * Chat Engines  Chat Engines 
+      * [ Chat Engine with a Personality ✨  ](../../examples/chat_engine/chat_engine_personality/)
+      * [ Chat Engine - OpenAI Agent Mode  ](../../examples/chat_engine/chat_engine_openai/)
+      * [ Chat Engine - Context Mode  ](../../examples/chat_engine/chat_engine_context/)
+      * [ Chat Engine - Best Mode  ](../../examples/chat_engine/chat_engine_best/)
+      * [ Chat Engine - ReAct Agent Mode  ](../../examples/chat_engine/chat_engine_react/)
+      * [ Chat Engine - Simple Mode REPL  ](../../examples/chat_engine/chat_engine_repl/)
+      * [ Chat Engine - Condense Plus Context Mode  ](../../examples/chat_engine/chat_engine_condense_plus_context/)
+      * [ Chat Engine - Condense Question Mode  ](../../examples/chat_engine/chat_engine_condense_question/)
+    * Cookbooks  Cookbooks 
+      * [ Cohere init8 and binary Embeddings Retrieval Evaluation  ](../../examples/cookbooks/cohere_retriever_eval/)
+      * [ mixedbread Rerank Cookbook  ](../../examples/cookbooks/mixedbread_reranker/)
+      * [ MistralAI Cookbook  ](../../examples/cookbooks/mistralai/)
+      * [ Anthropic Haiku Cookbook  ](../../examples/cookbooks/anthropic_haiku/)
+    * Customization  Customization 
+      * [ Streaming for Chat Engine - Condense Question Mode  ](../../examples/customization/streaming/chat_engine_condense_question_stream_response/)
+      * [ Streaming  ](../../examples/customization/streaming/SimpleIndexDemo-streaming/)
+      * [ Completion Prompts Customization  ](../../examples/customization/prompts/completion_prompts/)
+      * [ Chat Prompts Customization  ](../../examples/customization/prompts/chat_prompts/)
+      * [ ChatGPT  ](../../examples/customization/llms/SimpleIndexDemo-ChatGPT/)
+      * [ HuggingFace LLM - StableLM  ](../../examples/customization/llms/SimpleIndexDemo-Huggingface_stablelm/)
+      * [ HuggingFace LLM - Camel-5b  ](../../examples/customization/llms/SimpleIndexDemo-Huggingface_camel/)
+      * [ Azure OpenAI  ](../../examples/customization/llms/AzureOpenAI/)
+    * Data Connectors  Data Connectors 
+      * [ Parallel Processing SimpleDirectoryReader  ](../../examples/data_connectors/simple_directory_reader_parallel/)
+      * [ DeepLake Reader  ](../../examples/data_connectors/DeepLakeReader/)
+      * [ Psychic Reader  ](../../examples/data_connectors/PsychicDemo/)
+      * [ Qdrant Reader  ](../../examples/data_connectors/QdrantDemo/)
+      * [ HTML Tag Reader  ](../../examples/data_connectors/html_tag_reader/)
+      * [ Discord Reader  ](../../examples/data_connectors/DiscordDemo/)
+      * [ MongoDB Reader  ](../../examples/data_connectors/MongoDemo/)
+      * [ Chroma Reader  ](../../examples/data_connectors/ChromaDemo/)
+      * [ MyScale Reader  ](../../examples/data_connectors/MyScaleReaderDemo/)
+      * [ Faiss Reader  ](../../examples/data_connectors/FaissDemo/)
+      * [ Obsidian Reader  ](../../examples/data_connectors/ObsidianReaderDemo/)
+      * [ Slack Reader  ](../../examples/data_connectors/SlackDemo/)
+      * [ Web Page Reader  ](../../examples/data_connectors/WebPageDemo/)
+      * [ Pinecone Reader  ](../../examples/data_connectors/PineconeDemo/)
+      * [ Mbox Reader  ](../../examples/data_connectors/MboxReaderDemo/)
+      * [ MilvusReader  ](../../examples/data_connectors/MilvusReaderDemo/)
+      * [ Notion Reader  ](../../examples/data_connectors/NotionDemo/)
+      * [ DashVector Reader  ](../../examples/data_connectors/DashvectorReaderDemo/)
+      * [ Pathway Reader  ](../../examples/data_connectors/PathwayReaderDemo/)
+      * [ Deplot Reader Demo  ](../../examples/data_connectors/deplot/DeplotReader/)
+      * [ Github Repo Reader  ](../../examples/data_connectors/GithubRepositoryReaderDemo/)
+      * [ Simple Directory Reader  ](../../examples/data_connectors/simple_directory_reader/)
+      * [ Google Docs Reader  ](../../examples/data_connectors/GoogleDocsDemo/)
+      * [ Database Reader  ](../../examples/data_connectors/DatabaseReaderDemo/)
+      * [ Twitter Reader  ](../../examples/data_connectors/TwitterDemo/)
+      * [ Weaviate Reader  ](../../examples/data_connectors/WeaviateDemo/)
+      * [ Make Reader  ](../../examples/data_connectors/MakeDemo/)
+      * [ Google Sheets Reader  ](../../examples/data_connectors/GoogleSheetsDemo/)
+      * [ Simple Directory Reader over a Remote FileSystem  ](../../examples/data_connectors/simple_directory_reader_remote_fs/)
+      * [ Google Drive Reader  ](../../examples/data_connectors/GoogleDriveDemo/)
+    * Discover LlamaIndex  Discover LlamaIndex 
+      * [ Discord Thread Management  ](../../examples/discover_llamaindex/document_management/Discord_Thread_Management/)
+    * Docstores  Docstores 
+      * [ Dynamo DB Docstore Demo  ](../../examples/docstore/DynamoDBDocstoreDemo/)
+      * [ Redis Docstore+Index Store Demo  ](../../examples/docstore/RedisDocstoreIndexStoreDemo/)
+      * [ MongoDB Demo  ](../../examples/docstore/MongoDocstoreDemo/)
+      * [ Firestore Demo  ](../../examples/docstore/FirestoreDemo/)
+      * [ Docstore Demo  ](../../examples/docstore/DocstoreDemo/)
+    * Embeddings  Embeddings 
+      * [ Qdrant FastEmbed Embeddings  ](../../examples/embeddings/fastembed/)
+      * [ Text Embedding Inference  ](../../examples/embeddings/text_embedding_inference/)
+      * [ Embeddings with Clarifai  ](../../examples/embeddings/clarifai/)
+      * [ Bedrock Embeddings  ](../../examples/embeddings/bedrock/)
+      * [ Voyage Embeddings  ](../../examples/embeddings/voyageai/)
+      * [ Ollama Embeddings  ](../../examples/embeddings/ollama_embedding/)
+      * [ Gradient Embeddings  ](../../examples/embeddings/gradient/)
+      * [ Custom Embeddings  ](../../examples/embeddings/custom_embeddings/)
+      * [ Google Gemini Embeddings  ](../../examples/embeddings/gemini/)
+      * [ Local Embeddings with HuggingFace  ](../../examples/embeddings/huggingface/)
+      * [ Anyscale Embeddings  ](../../examples/embeddings/Anyscale/)
+      * [ Optimized Embedding Model using Optimum-Intel  ](../../examples/embeddings/optimum_intel/)
+      * [ Jina Embeddings  ](../../examples/embeddings/jinaai_embeddings/)
+      * [ Fireworks Embeddings  ](../../examples/embeddings/fireworks/)
+      * [ Nomic Embedding  ](../../examples/embeddings/nomic/)
+      * [ MistralAI Embeddings  ](../../examples/embeddings/mistralai/)
+      * [ Dashscope embeddings  ](../../examples/embeddings/dashscope_embeddings/)
+      * [ Jina 8K Context Window Embeddings  ](../../examples/embeddings/jina_embeddings/)
+      * [ LLMRails Embeddings  ](../../examples/embeddings/llm_rails/)
+      * [ Google PaLM Embeddings  ](../../examples/embeddings/google_palm/)
+      * [ Interacting with Embeddings deployed in Amazon SageMaker Endpoint with LlamaIndex  ](../../examples/embeddings/sagemaker_embedding_endpoint/)
+      * [ LangChain Embeddings  ](../../examples/embeddings/Langchain/)
+      * [ Elasticsearch Embeddings  ](../../examples/embeddings/elasticsearch/)
+      * [ OpenAI Embeddings  ](../../examples/embeddings/OpenAI/)
+      * [ CohereAI Embeddings  ](../../examples/embeddings/cohereai/)
+      * [ Together AI Embeddings  ](../../examples/embeddings/together/)
+      * [ Llamafile Embeddings  ](../../examples/embeddings/llamafile/)
+      * [ PremAI Embeddings  ](../../examples/embeddings/premai/)
+      * [ Aleph Alpha Embeddings  ](../../examples/embeddings/alephalpha/)
+      * [ Optimized BGE Embedding Model using Intel® Extension for Transformers  ](../../examples/embeddings/itrex/)
+      * [ Cloudflare Workers AI Embeddings  ](../../examples/embeddings/cloudflare_workersai/)
+      * [ Local Embeddings with OpenVINO  ](../../examples/embeddings/openvino/)
+      * [ Local Embeddings with IPEX-LLM  ](../../examples/embeddings/ipex_llm/)
+      * [ OctoAI Embeddings  ](../../examples/embeddings/octoai/)
+    * Evaluation  Evaluation 
+      * [ Tonic Validate Evaluators  ](../../examples/evaluation/TonicValidateEvaluators/)
+      * [ Embedding Similarity Evaluator  ](../../examples/evaluation/semantic_similarity_eval/)
+      * [ BatchEvalRunner - Running Multiple Evaluations  ](../../examples/evaluation/batch_eval/)
+      * [ Benchmarking LLM Evaluators On The MT-Bench Human Judgement LabelledPairwiseEvaluatorDataset  ](../../examples/evaluation/mt_bench_human_judgement/)
+      * [ Benchmarking LLM Evaluators On A Mini MT-Bench (Single Grading) LabelledEvaluatorDataset  ](../../examples/evaluation/mt_bench_single_grading/)
+      * [ Answer Relevancy and Context Relevancy Evaluations  ](../../examples/evaluation/answer_and_context_relevancy/)
+      * [ Evaluation using Prometheus model  ](../../examples/evaluation/prometheus_evaluation/)
+      * [ Faithfulness Evaluator  ](../../examples/evaluation/faithfulness_eval/)
+      * [ HotpotQADistractor Demo  ](../../examples/evaluation/HotpotQADistractor/)
+      * [ Self Correcting Query Engines - Evaluation & Retry  ](../../examples/evaluation/RetryQuery/)
+      * [ Correctness Evaluator  ](../../examples/evaluation/correctness_eval/)
+      * [ How to use UpTrain with LlamaIndex  ](../../examples/evaluation/UpTrain/)
+      * [ QuestionGeneration  ](../../examples/evaluation/QuestionGeneration/)
+      * [ Retrieval Evaluation  ](../../examples/evaluation/retrieval/retriever_eval/)
+      * [ Evaluating Multi-Modal RAG  ](../../examples/evaluation/multi_modal/multi_modal_rag_evaluation/)
+      * [ BEIR Out of Domain Benchmark  ](../../examples/evaluation/BeirEvaluation/)
+      * [ Relevancy Evaluator  ](../../examples/evaluation/relevancy_eval/)
+      * [ 🚀 RAG/LLM Evaluators - DeepEval  ](../../examples/evaluation/Deepeval/)
+      * [ Guideline Evaluator  ](../../examples/evaluation/guideline_eval/)
+      * [ Pairwise Evaluator  ](../../examples/evaluation/pairwise_eval/)
+    * Finetuning  Finetuning 
+      * [ Fine Tuning Llama2 for Better Structured Outputs With Gradient and LlamaIndex  ](../../examples/finetuning/gradient/gradient_structured/)
+      * [ Fine Tuning Nous-Hermes-2 With Gradient and LlamaIndex  ](../../examples/finetuning/gradient/gradient_fine_tuning/)
+      * [ Fine Tuning for Text-to-SQL With Gradient and LlamaIndex  ](../../examples/finetuning/gradient/gradient_text2sql/)
+      * [ Finetune Embeddings  ](../../examples/finetuning/embeddings/finetune_embedding/)
+      * [ Finetuning an Adapter on Top of any Black-Box Embedding Model  ](../../examples/finetuning/embeddings/finetune_embedding_adapter/)
+      * [ Fine Tuning with Function Calling  ](../../examples/finetuning/openai_fine_tuning_functions/)
+      * [ Custom Cohere Reranker  ](../../examples/finetuning/rerankers/cohere_custom_reranker/)
+      * [ Fine Tuning GPT-3.5-Turbo  ](../../examples/finetuning/openai_fine_tuning/)
+      * [ How to Finetune a cross-encoder using LLamaIndex  ](../../examples/finetuning/cross_encoder_finetuning/cross_encoder_finetuning/)
+      * [ Fine-tuning a gpt-3.5 ReAct Agent on Better Chain of Thought  ](../../examples/finetuning/react_agent/react_agent_finetune/)
+      * [ Knowledge Distillation For Fine-Tuning A GPT-3.5 Judge (Pairwise)  ](../../examples/finetuning/llm_judge/pairwise/finetune_llm_judge/)
+      * [ Knowledge Distillation For Fine-Tuning A GPT-3.5 Judge (Correctness)  ](../../examples/finetuning/llm_judge/correctness/finetune_llm_judge_single_grading_correctness/)
+      * [ Router Fine-tuning  ](../../examples/finetuning/router/router_finetune/)
+    * Ingestion  Ingestion 
+      * [ Async Ingestion Pipeline + Metadata Extraction  ](../../examples/ingestion/async_ingestion_pipeline/)
+      * [ Parallelizing Ingestion Pipeline  ](../../examples/ingestion/parallel_execution_ingestion_pipeline/)
+      * [ Ingestion Pipeline + Document Management  ](../../examples/ingestion/document_management_pipeline/)
+      * [ Building a Live RAG Pipeline over Google Drive Files  ](../../examples/ingestion/ingestion_gdrive/)
+      * [ Advanced Ingestion Pipeline  ](../../examples/ingestion/advanced_ingestion_pipeline/)
+      * [ Redis Ingestion Pipeline  ](../../examples/ingestion/redis_ingestion_pipeline/)
+    * Llama Datasets  Llama Datasets 
+      * [ Contributing a LlamaDataset To LlamaHub  ](../../examples/llama_dataset/uploading_llama_dataset/)
+      * [ Benchmarking RAG Pipelines With A LabelledRagDatatset  ](../../examples/llama_dataset/labelled-rag-datasets/)
+      * [ Downloading a LlamaDataset from LlamaHub  ](../../examples/llama_dataset/downloading_llama_datasets/)
+      * [ LlamaDataset Submission Template Notebook  ](../../examples/llama_dataset/ragdataset_submission_template/)
+    * Llama Hub  Llama Hub 
+      * [ Ollama Llama Pack Example  ](../../examples/llama_hub/llama_pack_ollama/)
+      * [ Llama Packs Example  ](../../examples/llama_hub/llama_packs_example/)
+      * [ LlamaHub Demostration  ](../../examples/llama_hub/llama_hub/)
+      * [ Llama Pack - Resume Screener 📄  ](../../examples/llama_hub/llama_pack_resume/)
+    * LLMs  LLMs 
+      * [ RunGPT  ](../../examples/llm/rungpt/)
+      * [ WatsonX  ](../../examples/llm/watsonx/)
+      * [ OpenLLM  ](../../examples/llm/openllm/)
+      * [ OpenAI JSON Mode vs. Function Calling for Data Extraction  ](../../examples/llm/openai_json_vs_function_calling/)
+      * [ MyMagic AI LLM  ](../../examples/llm/mymagic/)
+      * [ Portkey  ](../../examples/llm/portkey/)
+      * [ EverlyAI  ](../../examples/llm/everlyai/)
+      * [ PaLM  ](../../examples/llm/palm/)
+      * [ Cohere  ](../../examples/llm/cohere/)
+      * [ Vertex AI  ](../../examples/llm/vertex/)
+      * [ Predibase  ](../../examples/llm/predibase/)
+      * [ Llama API  ](../../examples/llm/llama_api/)
+      * [ Clarifai LLM  ](../../examples/llm/clarifai/)
+      * [ Bedrock  ](../../examples/llm/bedrock/)
+      * [ Replicate - Llama 2 13B  ](../../examples/llm/llama_2/)
+      * [ Gradient Model Adapter  ](../../examples/llm/gradient_model_adapter/)
+      * [ Maritalk  ](../../examples/llm/maritalk/)
+      * [ Nvidia TensorRT-LLM  ](../../examples/llm/nvidia_tensorrt/)
+      * [ Xorbits Inference  ](../../examples/llm/xinference_local_deployment/)
+      * [ Azure OpenAI  ](../../examples/llm/azure_openai/)
+      * [ Gemini  ](../../examples/llm/gemini/)
+      * [ Hugging Face LLMs  ](../../examples/llm/huggingface/)
+      * [ Anyscale  ](../../examples/llm/anyscale/)
+      * [ Replicate - Vicuna 13B  ](../../examples/llm/vicuna/)
+      * [ OpenRouter  ](../../examples/llm/openrouter/)
+      * [ Fireworks  ](../../examples/llm/fireworks/)
+      * [ 🦙 x 🦙 Rap Battle  ](../../examples/llm/llama_2_rap_battle/)
+      * [ vLLM  ](../../examples/llm/vllm/)
+      * [ DashScope LLMS  ](../../examples/llm/dashscope/)
+      * [ LocalAI  ](../../examples/llm/localai/)
+      * [ LLM Predictor  ](../../examples/llm/llm_predictor/)
+      * [ MistralAI  ](../../examples/llm/mistralai/)
+      * [ Monster API <> LLamaIndex  ](../../examples/llm/monsterapi/)
+      * [ AI21  ](../../examples/llm/ai21/)
+      * [ LlamaCPP  ](../../examples/llm/llama_2_llama_cpp/)
+      * [ Nvidia Triton  ](../../examples/llm/nvidia_triton/)
+      * [ Perplexity  ](../../examples/llm/perplexity/)
+      * [ LiteLLM  ](../../examples/llm/litellm/)
+      * [ Ollama - Llama 2 7B  ](../../examples/llm/ollama/)
+      * [ Neutrino AI  ](../../examples/llm/neutrino/)
+      * [ Groq  ](../../examples/llm/groq/)
+      * [ Langchain  ](../../examples/llm/langchain/)
+      * [ Interacting with LLM deployed in Amazon SageMaker Endpoint with LlamaIndex  ](../../examples/llm/sagemaker_endpoint_llm/)
+      * [ OpenAI  ](../../examples/llm/openai/)
+      * [ Anthropic  ](../../examples/llm/anthropic/)
+      * [ Gradient Base Model  ](../../examples/llm/gradient_base_model/)
+      * [ Ollama - Gemma  ](../../examples/llm/ollama_gemma/)
+      * [ Konko  ](../../examples/llm/konko/)
+      * [ Together AI LLM  ](../../examples/llm/together/)
+      * [ Fireworks Function Calling Cookbook  ](../../examples/llm/fireworks_cookbook/)
+      * [ Friendli  ](../../examples/llm/friendli/)
+      * [ ModelScope LLMS  ](../../examples/llm/modelscope/)
+      * [ llamafile  ](../../examples/llm/llamafile/)
+      * [ PremAI LlamaIndex  ](../../examples/llm/premai/)
+      * [ Solar LLM  ](../../examples/llm/solar/)
+      * [ Aleph Alpha  ](../../examples/llm/alephalpha/)
+      * [ IPEX-LLM  ](../../examples/llm/ipex_llm/)
+      * [ DataBricks  ](../../examples/llm/databricks/)
+      * [ OpenVINO LLMs  ](../../examples/llm/openvino/)
+    * Low Level  Low Level 
+      * [ Building RAG from Scratch (Open-source only!)  ](../../examples/low_level/oss_ingestion_retrieval/)
+      * [ Building an Advanced Fusion Retriever from Scratch  ](../../examples/low_level/fusion_retriever/)
+      * [ Building a Router from Scratch  ](../../examples/low_level/router/)
+      * [ Building Retrieval from Scratch  ](../../examples/low_level/retrieval/)
+      * [ Building Evaluation from Scratch  ](../../examples/low_level/evaluation/)
+      * [ Building Response Synthesis from Scratch  ](../../examples/low_level/response_synthesis/)
+      * [ Building a (Very Simple) Vector Store from Scratch  ](../../examples/low_level/vector_store/)
+      * [ Building Data Ingestion from Scratch  ](../../examples/low_level/ingestion/)
+    * Managed Indexes  Managed Indexes 
+      * [ Vectara Managed Index  ](../../examples/managed/vectaraDemo/)
+      * [ Semantic Retriever Benchmark  ](../../examples/managed/manage_retrieval_benchmark/)
+      * [ Google Generative Language Semantic Retriever  ](../../examples/managed/GoogleDemo/)
+      * [ Managed Index with Zilliz Cloud Pipelines  ](../../examples/managed/zcpDemo/)
+    * Metadata Extractors  Metadata Extractors 
+      * [ Metadata Extraction and Augmentation w/ Marvin  ](../../examples/metadata_extraction/MarvinMetadataExtractorDemo/)
+      * [ Automated Metadata Extraction for Better Retrieval + Synthesis  ](../../examples/metadata_extraction/MetadataExtraction_LLMSurvey/)
+      * [ Pydantic Extractor  ](../../examples/metadata_extraction/PydanticExtractor/)
+      * [ Entity Metadata Extraction  ](../../examples/metadata_extraction/EntityExtractionClimate/)
+      * [ Extracting Metadata for Better Document Indexing and Understanding  ](../../examples/metadata_extraction/MetadataExtractionSEC/)
+    * Multi-Modal  Multi-Modal 
+      * [ LlaVa Demo with LlamaIndex  ](../../examples/multi_modal/llava_demo/)
+      * [ Retrieval-Augmented Image Captioning  ](../../examples/multi_modal/llava_multi_modal_tesla_10q/)
+      * [ Multi-Modal LLM using Replicate LlaVa, Fuyu 8B, MiniGPT4 models for image reasoning  ](../../examples/multi_modal/replicate_multi_modal/)
+      * [ Semi-structured Image Retrieval  ](../../examples/multi_modal/structured_image_retrieval/)
+      * [ GPT4-V Experiments with General, Specific questions and Chain Of Thought (COT) Prompting Technique.  ](../../examples/multi_modal/gpt4v_experiments_cot/)
+      * [ Multi-Modal Retrieval using GPT text embedding and CLIP image embedding for Wikipedia Articles  ](../../examples/multi_modal/multi_modal_retrieval/)
+      * [ Multi-Modal LLM using DashScope qwen-vl model for image reasoning  ](../../examples/multi_modal/dashscope_multi_modal/)
+      * [ Multi-Modal LLM using OpenAI GPT-4V model for image reasoning  ](../../examples/multi_modal/openai_multi_modal/)
+      * [ [Beta] Multi-modal ReAct Agent  ](../../examples/multi_modal/mm_agent/)
+      * [ Multi-Modal LLM using Azure OpenAI GPT-4V model for image reasoning  ](../../examples/multi_modal/azure_openai_multi_modal/)
+      * [ Multi-Modal LLM using Google's Gemini model for image understanding and build Retrieval Augmented Generation with LlamaIndex  ](../../examples/multi_modal/gemini/)
+      * [ Multimodal RAG for processing videos using OpenAI GPT4V and LanceDB vectorstore  ](../../examples/multi_modal/multi_modal_video_RAG/)
+      * [ Multimodal Ollama Cookbook  ](../../examples/multi_modal/ollama_cookbook/)
+      * [ Chroma Multi-Modal Demo with LlamaIndex  ](../../examples/multi_modal/ChromaMultiModalDemo/)
+      * [ Multi-Modal GPT4V Pydantic Program  ](../../examples/multi_modal/multi_modal_pydantic/)
+      * [ Advanced Multi-Modal Retrieval using GPT4V and Multi-Modal Index/Retriever  ](../../examples/multi_modal/gpt4v_multi_modal_retrieval/)
+      * [ Image to Image Retrieval using CLIP embedding and image correlation reasoning using GPT4V  ](../../examples/multi_modal/image_to_image_retrieval/)
+      * [ Multi-Modal LLM using Anthropic model for image reasoning  ](../../examples/multi_modal/anthropic_multi_modal/)
+    * Multi-Tenancy  Multi-Tenancy 
+      * [ Multi-Tenancy RAG with LlamaIndex  ](../../examples/multi_tenancy/multi_tenancy_rag/)
+    * Node Parsers & Text Splitters  Node Parsers & Text Splitters 
+      * [ Semantic Chunker  ](../../examples/node_parsers/semantic_chunking/)
+    * Node Postprocessors  Node Postprocessors 
+      * [ File Based Node Parsers  ](../../examples/node_postprocessor/FileNodeProcessors/)
+      * [ Metadata Replacement + Node Sentence Window  ](../../examples/node_postprocessor/MetadataReplacementDemo/)
+      * [ PII Masking  ](../../examples/node_postprocessor/PII/)
+      * [ Forward/Backward Augmentation  ](../../examples/node_postprocessor/PrevNextPostprocessorDemo/)
+      * [ RankGPT Reranker Demonstration (Van Gogh Wiki)  ](../../examples/node_postprocessor/rankGPT/)
+      * [ LLM Reranker Demonstration (Great Gatsby)  ](../../examples/node_postprocessor/LLMReranker-Gatsby/)
+      * [ SentenceTransformerRerank  ](../../examples/node_postprocessor/SentenceTransformerRerank/)
+      * [ LLM Reranker Demonstration (2021 Lyft 10-k)  ](../../examples/node_postprocessor/LLMReranker-Lyft-10k/)
+      * [ LongContextReorder  ](../../examples/node_postprocessor/LongContextReorder/)
+      * [ Cohere Rerank  ](../../examples/node_postprocessor/CohereRerank/)
+      * [ Recency Filtering  ](../../examples/node_postprocessor/RecencyPostprocessorDemo/)
+      * [ Colbert Rerank  ](../../examples/node_postprocessor/ColbertRerank/)
+      * [ FlagEmbeddingReranker  ](../../examples/node_postprocessor/FlagEmbeddingReranker/)
+      * [ Sentence Embedding Optimizer  ](../../examples/node_postprocessor/OptimizerDemo/)
+      * [ Time-Weighted Rerank  ](../../examples/node_postprocessor/TimeWeightedPostprocessorDemo/)
+      * [ Jina Rerank  ](../../examples/node_postprocessor/JinaRerank/)
+      * [ RankLLM Reranker Demonstration (Van Gogh Wiki)  ](../../examples/node_postprocessor/rankLLM/)
+      * [ OpenVINO Rerank  ](../../examples/node_postprocessor/openvino_rerank/)
+    * Object Stores  Object Stores 
+      * [ The ObjectIndex Class  ](../../examples/objects/object_index/)
+    * Output Parsers  Output Parsers 
+      * [ LLM Pydantic Program  ](../../examples/output_parsing/llm_program/)
+      * [ OpenAI Pydantic Program  ](../../examples/output_parsing/openai_pydantic_program/)
+      * [ DataFrame Structured Data Extraction  ](../../examples/output_parsing/df_program/)
+      * [ Evaporate Demo  ](../../examples/output_parsing/evaporate_program/)
+      * [ OpenAI function calling for Sub-Question Query Engine  ](../../examples/output_parsing/openai_sub_question/)
+      * [ Guidance Pydantic Program  ](../../examples/output_parsing/guidance_pydantic_program/)
+      * [ Guardrails Output Parsing  ](../../examples/output_parsing/GuardrailsDemo/)
+      * [ Langchain Output Parsing  ](../../examples/output_parsing/LangchainOutputParserDemo/)
+      * [ LM Format Enforcer Pydantic Program  ](../../examples/output_parsing/lmformatenforcer_pydantic_program/)
+      * [ LM Format Enforcer Regular Expression Generation  ](../../examples/output_parsing/lmformatenforcer_regular_expressions/)
+      * [ Guidance for Sub-Question Query Engine  ](../../examples/output_parsing/guidance_sub_question/)
+    * Param Optimizer  Param Optimizer 
+      * [ [WIP] Hyperparameter Optimization for RAG  ](../../examples/param_optimizer/param_optimizer/)
+    * Query Pipeline  Query Pipeline 
+      * [ An Introduction to LlamaIndex Query Pipelines  ](../../examples/pipeline/query_pipeline/)
+      * [ Query Pipeline over Pandas DataFrames  ](../../examples/pipeline/query_pipeline_pandas/)
+      * [ Query Pipeline for Advanced Text-to-SQL  ](../../examples/pipeline/query_pipeline_sql/)
+      * [ Query Pipeline with Async/Parallel Execution  ](../../examples/pipeline/query_pipeline_async/)
+      * [ Query Pipeline with Routing  ](../../examples/pipeline/query_pipeline_routing/)
+      * [ Query Pipeline Chat Engine  ](../../examples/pipeline/query_pipeline_memory/)
+    * Prompts  Prompts 
+      * [ Advanced Prompt Techniques (Variable Mappings, Functions)  ](../../examples/prompts/advanced_prompts/)
+      * [ EmotionPrompt in RAG  ](../../examples/prompts/emotion_prompt/)
+      * [ Prompt Engineering for RAG  ](../../examples/prompts/prompts_rag/)
+      * [ Accessing/Customizing Prompts within Higher-Level Modules  ](../../examples/prompts/prompt_mixin/)
+      * [ "Optimization by Prompting" for RAG  ](../../examples/prompts/prompt_optimization/)
+    * Query Engines  Query Engines 
+      * [ Knowledge Graph RAG Query Engine  ](../../examples/query_engine/knowledge_graph_rag_query_engine/)
+      * [ JSONalyze Query Engine  ](../../examples/query_engine/JSONalyze_query_engine/)
+      * [ Retriever Router Query Engine  ](../../examples/query_engine/RetrieverRouterQueryEngine/)
+      * [ [Beta] Text-to-SQL with PGVector  ](../../examples/query_engine/pgvector_sql_query_engine/)
+      * [ SQL Join Query Engine  ](../../examples/query_engine/SQLJoinQueryEngine/)
+      * [ CitationQueryEngine  ](../../examples/query_engine/citation_query_engine/)
+      * [ Pandas Query Engine  ](../../examples/query_engine/pandas_query_engine/)
+      * [ Ensemble Query Engine Guide  ](../../examples/query_engine/ensemble_query_engine/)
+      * [ JSON Query Engine  ](../../examples/query_engine/json_query_engine/)
+      * [ Router Query Engine  ](../../examples/query_engine/RouterQueryEngine/)
+      * [ Query Engine with Pydantic Outputs  ](../../examples/query_engine/pydantic_query_engine/)
+      * [ Cogniswitch query engine  ](../../examples/query_engine/cogniswitch_query_engine/)
+      * [ Recursive Retriever + Query Engine Demo  ](../../examples/query_engine/pdf_tables/recursive_retriever/)
+      * [ SQL Router Query Engine  ](../../examples/query_engine/SQLRouterQueryEngine/)
+      * [ Joint Tabular/Semantic QA over Tesla 10K  ](../../examples/query_engine/sec_tables/tesla_10q_table/)
+      * [ Recursive Retriever + Document Agents  ](../../examples/query_engine/recursive_retriever_agents/)
+      * [ Joint QA Summary Query Engine  ](../../examples/query_engine/JointQASummary/)
+      * [ Structured Hierarchical Retrieval  ](../../examples/query_engine/multi_doc_auto_retrieval/multi_doc_auto_retrieval/)
+      * [ FLARE Query Engine  ](../../examples/query_engine/flare_query_engine/)
+      * [ Knowledge Graph Query Engine  ](../../examples/query_engine/knowledge_graph_query_engine/)
+      * [ Sub Question Query Engine  ](../../examples/query_engine/sub_question_query_engine/)
+      * [ SQL Auto Vector Query Engine  ](../../examples/query_engine/SQLAutoVectorQueryEngine/)
+      * [ Defining a Custom Query Engine  ](../../examples/query_engine/custom_query_engine/)
+      * [ Retriever Query Engine with Custom Retrievers - Simple Hybrid Search  ](../../examples/query_engine/CustomRetrievers/)
+    * Query Transformations  Query Transformations 
+      * [ Query Transform Cookbook  ](../../examples/query_transformations/query_transform_cookbook/)
+      * [ HyDE Query Transform  ](../../examples/query_transformations/HyDEQueryTransformDemo/)
+      * [ Multi-Step Query Engine  ](../../examples/query_transformations/SimpleIndexDemo-multistep/)
+    * Response Synthesizers  Response Synthesizers 
+      * [ Pydantic Tree Summarize  ](../../examples/response_synthesizers/pydantic_tree_summarize/)
+      * [ Refine  ](../../examples/response_synthesizers/refine/)
+      * [ Refine with Structured Answer Filtering  ](../../examples/response_synthesizers/structured_refine/)
+      * [ Pydantic Tree Summarize  ](../../examples/response_synthesizers/custom_prompt_synthesizer/)
+      * [ Stress-Testing Long Context LLMs with a Recall Task  ](../../examples/response_synthesizers/long_context_test/)
+      * [ Tree Summarize  ](../../examples/response_synthesizers/tree_summarize/)
+    * Retrievers  Retrievers 
+      * [ BM25 Retriever  ](../../examples/retrievers/bm25_retriever/)
+      * [ Composable Objects  ](../../examples/retrievers/composable_retrievers/)
+      * [ Router Retriever  ](../../examples/retrievers/router_retriever/)
+      * [ Recursive Retriever + Node References  ](../../examples/retrievers/recursive_retriever_nodes/)
+      * [ Chunk + Document Hybrid Retrieval with Long-Context Embeddings (Together.ai)  ](../../examples/retrievers/multi_doc_together_hybrid/)
+      * [ Auto-Retrieval from a Vectara Index  ](../../examples/retrievers/vectara_auto_retriever/)
+      * [ Pathway Retriever  ](../../examples/retrievers/pathway_retriever/)
+      * [ Comparing Methods for Structured Retrieval (Auto-Retrieval vs. Recursive Retrieval)  ](../../examples/retrievers/auto_vs_recursive_retriever/)
+      * [ Ensemble Retrieval Guide  ](../../examples/retrievers/ensemble_retrieval/)
+      * [ Simple Fusion Retriever  ](../../examples/retrievers/simple_fusion/)
+      * [ Auto Merging Retriever  ](../../examples/retrievers/auto_merging_retriever/)
+      * [ Recursive Retriever + Node References + Braintrust  ](../../examples/retrievers/recurisve_retriever_nodes_braintrust/)
+      * [ Activeloop Deep Memory  ](../../examples/retrievers/deep_memory/)
+      * [ You.com Retriever  ](../../examples/retrievers/you_retriever/)
+      * [ Reciprocal Rerank Fusion Retriever  ](../../examples/retrievers/reciprocal_rerank_fusion/)
+      * [ Relative Score Fusion and Distribution-Based Score Fusion  ](../../examples/retrievers/relative_score_dist_fusion/)
+      * [ VideoDB Retriever  ](../../examples/retrievers/videodb_retriever/)
+      * [ Bedrock (Knowledge Bases)  ](../../examples/retrievers/bedrock_retriever/)
+    * Tools  Tools 
+      * [ OnDemandLoaderTool Tutorial  ](../../examples/tools/OnDemandLoaderTool/)
+      * [ Evaluation Query Engine Tool  ](../../examples/tools/eval_query_engine_tool/)
+    * Transforms  Transforms 
+      * [ Transforms Evaluation  ](../../examples/transforms/TransformsEval/)
+    * Use Cases  Use Cases 
+      * [ 10Q Analysis  ](../../examples/usecases/10q_sub_question/)
+      * [ 10K Analysis  ](../../examples/usecases/10k_sub_question/)
+      * [ Github Issue Analysis  ](../../examples/usecases/github_issue_analysis/)
+      * [ Email Data Extraction  ](../../examples/usecases/email_data_extraction/)
+    * Vector Stores  Vector Stores 
+      * [ Typesense Vector Store  ](../../examples/vector_stores/TypesenseDemo/)
+      * [ Bagel Vector Store  ](../../examples/vector_stores/BagelAutoRetriever/)
+      * [ Rockset Vector Store  ](../../examples/vector_stores/RocksetIndexDemo/)
+      * [ Tencent Cloud VectorDB  ](../../examples/vector_stores/TencentVectorDBIndexDemo/)
+      * [ Qdrant Vector Store  ](../../examples/vector_stores/QdrantIndexDemo/)
+      * [ Timescale Vector Store (PostgreSQL)  ](../../examples/vector_stores/Timescalevector/)
+      * [ MongoDBAtlasVectorSearch  ](../../examples/vector_stores/MongoDBAtlasVectorSearch/)
+      * [ DocArray InMemory Vector Store  ](../../examples/vector_stores/DocArrayInMemoryIndexDemo/)
+      * [ Auto-Retrieval from a Vector Database  ](../../examples/vector_stores/chroma_auto_retriever/)
+      * [ Zep Vector Store  ](../../examples/vector_stores/ZepIndexDemo/)
+      * [ Faiss Vector Store  ](../../examples/vector_stores/FaissIndexDemo/)
+      * [ Guide: Using Vector Store Index with Existing Pinecone Vector Store  ](../../examples/vector_stores/existing_data/pinecone_existing_data/)
+      * [ Guide: Using Vector Store Index with Existing Weaviate Vector Store  ](../../examples/vector_stores/existing_data/weaviate_existing_data/)
+      * [ Simple Vector Store  ](../../examples/vector_stores/SimpleIndexDemo/)
+      * [ Qdrant Hybrid Search  ](../../examples/vector_stores/qdrant_hybrid/)
+      * [ Deep Lake Vector Store Quickstart  ](../../examples/vector_stores/DeepLakeIndexDemo/)
+      * [ Pinecone Vector Store - Metadata Filter  ](../../examples/vector_stores/pinecone_metadata_filter/)
+      * [ Qdrant Vector Store - Default Qdrant Filters  ](../../examples/vector_stores/Qdrant_using_qdrant_filters/)
+      * [ Auto-Retrieval from a Vector Database  ](../../examples/vector_stores/elasticsearch_auto_retriever/)
+      * [ ClickHouse Vector Store  ](../../examples/vector_stores/ClickHouseIndexDemo/)
+      * [ S3/R2 Storage  ](../../examples/vector_stores/SimpleIndexOnS3/)
+      * [ txtai Vector Store  ](../../examples/vector_stores/TxtaiIndexDemo/)
+      * [ Cassandra Vector Store  ](../../examples/vector_stores/CassandraIndexDemo/)
+      * [ Elasticsearch  ](../../examples/vector_stores/Elasticsearch_demo/)
+      * [ Awadb Vector Store  ](../../examples/vector_stores/AwadbDemo/)
+      * [ Postgres Vector Store  ](../../examples/vector_stores/postgres/)
+      * [ Chroma Vector Store  ](../../examples/vector_stores/chroma_metadata_filter/)
+      * [ Azure CosmosDB MongoDB Vector Store  ](../../examples/vector_stores/AzureCosmosDBMongoDBvCoreDemo/)
+      * [ Upstash Vector Store  ](../../examples/vector_stores/UpstashVectorDemo/)
+      * [ Neo4j vector store  ](../../examples/vector_stores/Neo4jVectorDemo/)
+      * [ Elasticsearch Vector Store  ](../../examples/vector_stores/ElasticsearchIndexDemo/)
+      * [ Local Llama2 + VectorStoreIndex  ](../../examples/vector_stores/SimpleIndexDemoLlama-Local/)
+      * [ MyScale Vector Store  ](../../examples/vector_stores/MyScaleIndexDemo/)
+      * [ Metal Vector Store  ](../../examples/vector_stores/MetalIndexDemo/)
+      * [ Simple Vector Store - Async Index Creation  ](../../examples/vector_stores/AsyncIndexCreationDemo/)
+      * [ Tair Vector Store  ](../../examples/vector_stores/TairIndexDemo/)
+      * [ Pinecone Vector Store  ](../../examples/vector_stores/PineconeIndexDemo/)
+      * [ MongoDBAtlasVectorSearchRAGOpenAI  ](../../examples/vector_stores/MongoDBAtlasVectorSearchRAGOpenAI/)
+      * [ Redis Vector Store  ](../../examples/vector_stores/RedisIndexDemo/)
+      * [ Jaguar Vector Store  ](../../examples/vector_stores/JaguarIndexDemo/)
+      * [ Llama2 + VectorStoreIndex  ](../../examples/vector_stores/SimpleIndexDemoLlama2/)
+      * [ Weaviate Vector Store  ](../../examples/vector_stores/WeaviateIndexDemo/)
+      * [ Supabase Vector Store  ](../../examples/vector_stores/SupabaseVectorIndexDemo/)
+      * [ pgvecto.rs  ](../../examples/vector_stores/PGVectoRsDemo/)
+      * [ Weaviate Vector Store Metadata Filter  ](../../examples/vector_stores/WeaviateIndex_metadata_filter/)
+      * [ Weaviate Vector Store - Hybrid Search  ](../../examples/vector_stores/WeaviateIndexDemo-Hybrid/)
+      * [ DocArray Hnsw Vector Store  ](../../examples/vector_stores/DocArrayHnswIndexDemo/)
+      * [ DashVector Vector Store  ](../../examples/vector_stores/DashvectorIndexDemo/)
+      * [ Opensearch Vector Store  ](../../examples/vector_stores/OpensearchDemo/)
+      * [ Pinecone Vector Store - Hybrid Search  ](../../examples/vector_stores/PineconeIndexDemo-Hybrid/)
+      * [ Qdrant Vector Store - Metadata Filter  ](../../examples/vector_stores/Qdrant_metadata_filter/)
+      * [ Simple Vector Stores - Maximum Marginal Relevance Retrieval  ](../../examples/vector_stores/SimpleIndexDemoMMR/)
+      * [ A Simple to Advanced Guide with Auto-Retrieval (with Pinecone + Arize Phoenix)  ](../../examples/vector_stores/pinecone_auto_retriever/)
+      * [ Chroma  ](../../examples/vector_stores/ChromaIndexDemo/)
+      * [ LanceDB Vector Store  ](../../examples/vector_stores/LanceDBIndexDemo/)
+      * [ Bagel Network  ](../../examples/vector_stores/BagelIndexDemo/)
+      * [ Epsilla Vector Store  ](../../examples/vector_stores/EpsillaIndexDemo/)
+      * [ Milvus Vector Store  ](../../examples/vector_stores/MilvusIndexDemo/)
+      * [ Azure AI Search  ](../../examples/vector_stores/AzureAISearchIndexDemo/)
+      * [ Lantern Vector Store  ](../../examples/vector_stores/LanternIndexDemo/)
+      * [ Astra DB  ](../../examples/vector_stores/AstraDBIndexDemo/)
+      * [ Lantern Vector Store (auto-retriever)  ](../../examples/vector_stores/LanternAutoRetriever/)
+      * [ Auto-Retrieval from a Weaviate Vector Database  ](../../examples/vector_stores/WeaviateIndex_auto_retriever/)
+      * [ Databricks Vector Search  ](../../examples/vector_stores/DatabricksVectorSearchDemo/)
+      * [ Chroma + Fireworks + Nomic with Matryoshka embedding  ](../../examples/vector_stores/ChromaFireworksNomic/)
+      * [ DuckDB  ](../../examples/vector_stores/DuckDBDemo/)
+      * [ Baidu VectorDB  ](../../examples/vector_stores/BaiduVectorDBIndexDemo/)
+      * [ now make sure you create the search index with the right name here  ](../../examples/vector_stores/MongoDBAtlasVectorSearchRAGFireworks/)
+      * [ Advanced RAG with temporal filters using LlamaIndex and KDB.AI vector store  ](../../examples/vector_stores/KDBAI_Advanced_RAG_Demo/)
+      * [ AnalyticDB  ](../../examples/vector_stores/AnalyticDBDemo/)
+      * [ TiDB Vector Store  ](../../examples/vector_stores/TiDBVector/)
+      * [ Amazon Neptune - Neptune Analytics vector store  ](../../examples/vector_stores/AmazonNeptuneVectorDemo/)
+      * [ CouchbaseVectorStoreDemo  ](../../examples/vector_stores/CouchbaseVectorStoreDemo/)
+      * [ VearchDemo  ](../../examples/vector_stores/VearchDemo/)
+  * [ Component Guides  ](../../module_guides/)
+
+Component Guides
+
+    * [ Models  ](../../module_guides/models/)
+
+Models
+
+      * LLMs  LLMs 
+        * [ Using LLMs  ](../../module_guides/models/llms/)
+        * [ Standalone Usage  ](../../module_guides/models/llms/usage_standalone/)
+        * [ Customizing LLMs  ](../../module_guides/models/llms/usage_custom/)
+        * [ Available LLM Integrations  ](../../module_guides/models/llms/modules/)
+      * [ Embeddings  ](../../module_guides/models/embeddings/)
+      * [ Multi Modal  ](../../module_guides/models/multi_modal/)
+    * [ Prompts  ](../../module_guides/models/prompts/)
+
+Prompts
+
+      * [ Usage pattern  ](../../module_guides/models/prompts/usage_pattern/)
+    * [ Loading  ](../../module_guides/loading/)
+
+Loading
+
+      * [ Documents and Nodes  ](../../module_guides/loading/documents_and_nodes/)
+
+Documents and Nodes
+
+        * [ Using Documents  ](../../module_guides/loading/documents_and_nodes/usage_documents/)
+        * [ Using Nodes  ](../../module_guides/loading/documents_and_nodes/usage_nodes/)
+        * [ Metadata Extraction  ](../../module_guides/loading/documents_and_nodes/usage_metadata_extractor/)
+      * [ SimpleDirectoryReader  ](../../module_guides/loading/simpledirectoryreader/)
+      * [ Data Connectors  ](../../module_guides/loading/connector/)
+
+Data Connectors
+
+        * [ Usage Pattern  ](../../module_guides/loading/connector/usage_pattern/)
+        * [ LlamaParse  ](../../module_guides/loading/connector/llama_parse/)
+        * [ Module Guides  ](../../module_guides/loading/connector/modules/)
+      * [ Node Parsers / Text Splitters  ](../../module_guides/loading/node_parsers/)
+
+Node Parsers / Text Splitters
+
+        * [ Node Parser Modules  ](../../module_guides/loading/node_parsers/modules/)
+      * [ Ingestion Pipeline  ](../../module_guides/loading/ingestion_pipeline/)
+
+Ingestion Pipeline
+
+        * [ Transformations  ](../../module_guides/loading/ingestion_pipeline/transformations/)
+    * [ Indexing  ](../../module_guides/indexing/)
+
+Indexing
+
+      * [ Index Guide  ](../../module_guides/indexing/index_guide/)
+      * [ Vector Store Index  ](../../module_guides/indexing/vector_store_index/)
+      * [ Document Management  ](../../module_guides/indexing/document_management/)
+      * [ LlamaCloud  ](../../module_guides/indexing/llama_cloud_index/)
+      * [ Metadata Extraction  ](../../module_guides/indexing/metadata_extraction/)
+      * [ Modules  ](../../module_guides/indexing/modules/)
+    * [ Storing  ](../../module_guides/storing/)
+
+Storing
+
+      * [ Vector Stores  ](../../module_guides/storing/vector_stores/)
+      * [ Document Stores  ](../../module_guides/storing/docstores/)
+      * [ Index Stores  ](../../module_guides/storing/index_stores/)
+      * [ Chat Stores  ](../../module_guides/storing/chat_stores/)
+      * [ Key-Value Stores  ](../../module_guides/storing/kv_stores/)
+      * [ Persisting & Loading Data  ](../../module_guides/storing/save_load/)
+      * [ Customizing Storage  ](../../module_guides/storing/customization/)
+    * [ Querying  ](../../module_guides/querying/)
+
+Querying
+
+      * [ Query Engines  ](../../module_guides/deploying/query_engine/)
+
+Query Engines
+
+        * [ Usage Pattern  ](../../module_guides/deploying/query_engine/usage_pattern/)
+        * [ Response Modes  ](../../module_guides/deploying/query_engine/response_modes/)
+        * [ Streaming  ](../../module_guides/deploying/query_engine/streaming/)
+        * [ Module Guides  ](../../module_guides/deploying/query_engine/modules/)
+        * [ Supporting Modules  ](../../module_guides/deploying/query_engine/supporting_modules/)
+      * [ Chat Engines  ](../../module_guides/deploying/chat_engines/)
+
+Chat Engines
+
+        * [ Usage Pattern  ](../../module_guides/deploying/chat_engines/usage_pattern/)
+        * [ Module Guides  ](../../module_guides/deploying/chat_engines/modules/)
+      * [ Retrieval  ](../../module_guides/querying/retriever/)
+
+Retrieval
+
+        * [ Retriever Modules  ](../../module_guides/querying/retriever/retrievers/)
+        * [ Retriever Modes  ](../../module_guides/querying/retriever/retriever_modes/)
+      * [ Node Postprocessors  ](../../module_guides/querying/node_postprocessors/)
+
+Node Postprocessors
+
+        * [ Node Postprocessor Modules  ](../../module_guides/querying/node_postprocessors/node_postprocessors/)
+      * [ Response Synthesis  ](../../module_guides/querying/response_synthesizers/)
+
+Response Synthesis
+
+        * [ Response Synthesis Modules  ](../../module_guides/querying/response_synthesizers/response_synthesizers/)
+      * [ Routing  ](../../module_guides/querying/router/)
+      * [ Query Pipelines  ](../../module_guides/querying/pipeline/)
+
+Query Pipelines
+
+        * [ Usage Pattern  ](../../module_guides/querying/pipeline/usage_pattern/)
+        * [ Module Guides  ](../../module_guides/querying/pipeline/modules/)
+        * [ Module Usage  ](../../module_guides/querying/pipeline/module_usage/)
+      * [ Structured Outputs  ](../../module_guides/querying/structured_outputs/)
+
+Structured Outputs
+
+        * [ Output Parsing Modules  ](../../module_guides/querying/structured_outputs/output_parser/)
+        * [ Query Engines + Pydantic Outputs  ](../../module_guides/querying/structured_outputs/query_engine/)
+        * [ Pydantic Program  ](../../module_guides/querying/structured_outputs/pydantic_program/)
+    * [ Agents  ](../../module_guides/deploying/agents/)
+
+Agents
+
+      * [ Usage Pattern  ](../../module_guides/deploying/agents/usage_pattern/)
+      * [ Lower-Level Agent API  ](../../module_guides/deploying/agents/agent_runner/)
+      * [ Module Guides  ](../../module_guides/deploying/agents/modules/)
+      * [ Tools  ](../../module_guides/deploying/agents/tools/)
+
+Tools
+
+        * [ Usage Pattern  ](../../module_guides/deploying/agents/tools/usage_pattern/)
+        * [ LlamaHub Tools Guide  ](../../module_guides/deploying/agents/tools/llamahub_tools_guide/)
+    * [ Evaluation  ](../../module_guides/evaluating/)
+
+Evaluation
+
+      * [ Usage Pattern (Response Evaluation)  ](../../module_guides/evaluating/usage_pattern/)
+      * [ Usage Pattern (Retrieval)  ](../../module_guides/evaluating/usage_pattern_retrieval/)
+      * [ Modules  ](../../module_guides/evaluating/modules/)
+      * LlamaDatasets  LlamaDatasets 
+        * [ Contributing A LabelledRagDataset  ](../../module_guides/evaluating/contributing_llamadatasets/)
+        * [ Evaluating With LabelledRagDataset's  ](../../module_guides/evaluating/evaluating_with_llamadatasets/)
+        * [ Evaluating Evaluators with LabelledEvaluatorDataset's  ](../../module_guides/evaluating/evaluating_evaluators_with_llamadatasets/)
+    * [ Observability  ](../../module_guides/observability/)
+
+Observability
+
+      * [ Instrumentation  ](../../module_guides/observability/instrumentation/)
+    * [ Settings  ](../../module_guides/supporting_modules/settings/)
+  * Advanced Topics  Advanced Topics 
+    * [ Building Performant RAG Applications for Production  ](../../optimizing/production_rag/)
+    * [ Basic Strategies  ](../../optimizing/basic_strategies/basic_strategies/)
+    * [ Agentic strategies  ](../../optimizing/agentic_strategies/agentic_strategies/)
+    * Retrieval  Retrieval 
+      * [ Advanced Retrieval Strategies  ](../../optimizing/advanced_retrieval/advanced_retrieval/)
+      * [ Query Transformations  ](../../optimizing/advanced_retrieval/query_transformations/)
+    * Evaluation  Evaluation 
+      * [ Component Wise Evaluation  ](../../optimizing/evaluation/component_wise_evaluation/)
+      * [ End-to-End Evaluation  ](../../optimizing/evaluation/e2e_evaluation/)
+      * [ Evaluation  ](../../optimizing/evaluation/evaluation/)
+    * [ Fine-Tuning  ](../../optimizing/fine-tuning/fine-tuning/)
+    * [ Writing Custom Modules  ](../../optimizing/custom_modules/)
+    * [ Building RAG from Scratch (Lower-Level)  ](../../optimizing/building_rag_from_scratch/)
+  * [ API Reference  ](../../api_reference/)
+
+API Reference
+
+    * [ Agents  ](../../api_reference/agent/)
+
+Agents
+
+      * [ Openai  ](../../api_reference/agent/openai/)
+      * [ Openai legacy  ](../../api_reference/agent/openai_legacy/)
+      * [ React  ](../../api_reference/agent/react/)
+    * [ Callbacks  ](../../api_reference/callbacks/)
+
+Callbacks
+
+      * [ Aim  ](../../api_reference/callbacks/aim/)
+      * [ Argilla  ](../../api_reference/callbacks/argilla/)
+      * [ Arize phoenix  ](../../api_reference/callbacks/arize_phoenix/)
+      * [ Deepeval  ](../../api_reference/callbacks/deepeval/)
+      * [ Honeyhive  ](../../api_reference/callbacks/honeyhive/)
+      * [ Langfuse  ](../../api_reference/callbacks/langfuse/)
+      * [ Llama debug  ](../../api_reference/callbacks/llama_debug/)
+      * [ Openinference  ](../../api_reference/callbacks/openinference/)
+      * [ Promptlayer  ](../../api_reference/callbacks/promptlayer/)
+      * [ Token counter  ](../../api_reference/callbacks/token_counter/)
+      * [ Uptrain  ](../../api_reference/callbacks/uptrain/)
+      * [ Wandb  ](../../api_reference/callbacks/wandb/)
+    * [ Chat Engines  ](../../api_reference/chat_engines/)
+
+Chat Engines
+
+      * [ Condense plus context  ](../../api_reference/chat_engines/condense_plus_context/)
+      * [ Condense question  ](../../api_reference/chat_engines/condense_question/)
+      * [ Context  ](../../api_reference/chat_engines/context/)
+      * [ Simple  ](../../api_reference/chat_engines/simple/)
+    * [ Embeddings  ](../../api_reference/embeddings/)
+
+Embeddings
+
+      * [ Adapter  ](../../api_reference/embeddings/adapter/)
+      * [ Alephalpha  ](../../api_reference/embeddings/alephalpha/)
+      * [ Anyscale  ](../../api_reference/embeddings/anyscale/)
+      * [ Azure openai  ](../../api_reference/embeddings/azure_openai/)
+      * [ Bedrock  ](../../api_reference/embeddings/bedrock/)
+      * [ Clarifai  ](../../api_reference/embeddings/clarifai/)
+      * [ Clip  ](../../api_reference/embeddings/clip/)
+      * [ Cloudflare workersai  ](../../api_reference/embeddings/cloudflare_workersai/)
+      * [ Cohere  ](../../api_reference/embeddings/cohere/)
+      * [ Dashscope  ](../../api_reference/embeddings/dashscope/)
+      * [ Elasticsearch  ](../../api_reference/embeddings/elasticsearch/)
+      * [ Fastembed  ](../../api_reference/embeddings/fastembed/)
+      * [ Fireworks  ](../../api_reference/embeddings/fireworks/)
+      * [ Gemini  ](../../api_reference/embeddings/gemini/)
+      * [ Google  ](../../api_reference/embeddings/google/)
+      * [ Gradient  ](../../api_reference/embeddings/gradient/)
+      * [ Huggingface  ](../../api_reference/embeddings/huggingface/)
+      * [ Huggingface itrex  ](../../api_reference/embeddings/huggingface_itrex/)
+      * [ Huggingface optimum  ](../../api_reference/embeddings/huggingface_optimum/)
+      * [ Huggingface optimum intel  ](../../api_reference/embeddings/huggingface_optimum_intel/)
+      * [ Instructor  ](../../api_reference/embeddings/instructor/)
+      * [ Ipex llm  ](../../api_reference/embeddings/ipex_llm/)
+      * [ Jinaai  ](../../api_reference/embeddings/jinaai/)
+      * [ Langchain  ](../../api_reference/embeddings/langchain/)
+      * [ Llamafile  ](../../api_reference/embeddings/llamafile/)
+      * [ Llm rails  ](../../api_reference/embeddings/llm_rails/)
+      * [ Mistralai  ](../../api_reference/embeddings/mistralai/)
+      * [ Nomic  ](../../api_reference/embeddings/nomic/)
+      * [ Octoai  ](../../api_reference/embeddings/octoai/)
+      * [ Ollama  ](../../api_reference/embeddings/ollama/)
+      * [ Openai  ](../../api_reference/embeddings/openai/)
+      * [ Openvino  ](../../api_reference/embeddings/openvino/)
+      * [ Premai  ](../../api_reference/embeddings/premai/)
+      * [ Sagemaker endpoint  ](../../api_reference/embeddings/sagemaker_endpoint/)
+      * [ Text embeddings inference  ](../../api_reference/embeddings/text_embeddings_inference/)
+      * [ Together  ](../../api_reference/embeddings/together/)
+      * [ Vertex  ](../../api_reference/embeddings/vertex/)
+      * [ Voyageai  ](../../api_reference/embeddings/voyageai/)
+    * [ Evaluation  ](../../api_reference/evaluation/)
+
+Evaluation
+
+      * [ Answer relevancy  ](../../api_reference/evaluation/answer_relevancy/)
+      * [ Context relevancy  ](../../api_reference/evaluation/context_relevancy/)
+      * [ Correctness  ](../../api_reference/evaluation/correctness/)
+      * [ Dataset generation  ](../../api_reference/evaluation/dataset_generation/)
+      * [ Faithfullness  ](../../api_reference/evaluation/faithfullness/)
+      * [ Guideline  ](../../api_reference/evaluation/guideline/)
+      * [ Metrics  ](../../api_reference/evaluation/metrics/)
+      * [ Multi modal  ](../../api_reference/evaluation/multi_modal/)
+      * [ Pairwise comparison  ](../../api_reference/evaluation/pairwise_comparison/)
+      * [ Query response  ](../../api_reference/evaluation/query_response/)
+      * [ Response  ](../../api_reference/evaluation/response/)
+      * [ Retrieval  ](../../api_reference/evaluation/retrieval/)
+      * [ Semantic similarity  ](../../api_reference/evaluation/semantic_similarity/)
+      * [ Tonic validate  ](../../api_reference/evaluation/tonic_validate/)
+    * [ Indexes  ](../../api_reference/indices/)
+
+Indexes
+
+      * [ Colbert  ](../../api_reference/indices/colbert/)
+      * [ Document summary  ](../../api_reference/indices/document_summary/)
+      * [ Google  ](../../api_reference/indices/google/)
+      * [ Keyword  ](../../api_reference/indices/keyword/)
+      * [ Knowledge graph  ](../../api_reference/indices/knowledge_graph/)
+      * [ Llama cloud  ](../../api_reference/indices/llama_cloud/)
+      * [ Summary  ](../../api_reference/indices/summary/)
+      * [ Tree  ](../../api_reference/indices/tree/)
+      * [ Vectara  ](../../api_reference/indices/vectara/)
+      * [ Vector  ](../../api_reference/indices/vector/)
+      * [ Zilliz  ](../../api_reference/indices/zilliz/)
+    * [ Ingestion  ](../../api_reference/ingestion/)
+
+Ingestion
+
+    * [ Instrumentation  ](../../api_reference/instrumentation/)
+
+Instrumentation
+
+      * [ Event handlers  ](../../api_reference/instrumentation/event_handlers/)
+      * [ Event types  ](../../api_reference/instrumentation/event_types/)
+      * [ Span handlers  ](../../api_reference/instrumentation/span_handlers/)
+      * [ Span types  ](../../api_reference/instrumentation/span_types/)
+    * [ LLMs  ](../../api_reference/llms/)
+
+LLMs
+
+      * [ Ai21  ](../../api_reference/llms/ai21/)
+      * [ Alephalpha  ](../../api_reference/llms/alephalpha/)
+      * [ Anthropic  ](../../api_reference/llms/anthropic/)
+      * [ Anyscale  ](../../api_reference/llms/anyscale/)
+      * [ Azure openai  ](../../api_reference/llms/azure_openai/)
+      * [ Bedrock  ](../../api_reference/llms/bedrock/)
+      * [ Clarifai  ](../../api_reference/llms/clarifai/)
+      * [ Cohere  ](../../api_reference/llms/cohere/)
+      * [ Custom llm  ](../../api_reference/llms/custom_llm/)
+      * [ Dashscope  ](../../api_reference/llms/dashscope/)
+      * [ Databricks  ](../../api_reference/llms/databricks/)
+      * [ Everlyai  ](../../api_reference/llms/everlyai/)
+      * [ Fireworks  ](../../api_reference/llms/fireworks/)
+      * [ Friendli  ](../../api_reference/llms/friendli/)
+      * [ Gemini  ](../../api_reference/llms/gemini/)
+      * [ Gradient  ](../../api_reference/llms/gradient/)
+      * [ Groq  ](../../api_reference/llms/groq/)
+      * [ Huggingface  ](../../api_reference/llms/huggingface/)
+      * [ Ipex llm  ](../../api_reference/llms/ipex_llm/)
+      * [ Konko  ](../../api_reference/llms/konko/)
+      * [ Langchain  ](../../api_reference/llms/langchain/)
+      * [ Litellm  ](../../api_reference/llms/litellm/)
+      * [ Llama api  ](../../api_reference/llms/llama_api/)
+      * [ Llama cpp  ](../../api_reference/llms/llama_cpp/)
+      * [ Llamafile  ](../../api_reference/llms/llamafile/)
+      * [ Localai  ](../../api_reference/llms/localai/)
+      * [ Maritalk  ](../../api_reference/llms/maritalk/)
+      * [ Mistralai  ](../../api_reference/llms/mistralai/)
+      * [ Modelscope  ](../../api_reference/llms/modelscope/)
+      * [ Monsterapi  ](../../api_reference/llms/monsterapi/)
+      * [ Mymagic  ](../../api_reference/llms/mymagic/)
+      * [ Neutrino  ](../../api_reference/llms/neutrino/)
+      * [ Nvidia tensorrt  ](../../api_reference/llms/nvidia_tensorrt/)
+      * [ Nvidia triton  ](../../api_reference/llms/nvidia_triton/)
+      * [ Ollama  ](../../api_reference/llms/ollama/)
+      * [ Openai  ](../../api_reference/llms/openai/)
+      * [ Openai like  ](../../api_reference/llms/openai_like/)
+      * [ Openllm  ](../../api_reference/llms/openllm/)
+      * [ Openrouter  ](../../api_reference/llms/openrouter/)
+      * [ Openvino  ](../../api_reference/llms/openvino/)
+      * [ Palm  ](../../api_reference/llms/palm/)
+      * [ Perplexity  ](../../api_reference/llms/perplexity/)
+      * [ Portkey  ](../../api_reference/llms/portkey/)
+      * [ Predibase  ](../../api_reference/llms/predibase/)
+      * [ Premai  ](../../api_reference/llms/premai/)
+      * [ Replicate  ](../../api_reference/llms/replicate/)
+      * [ Rungpt  ](../../api_reference/llms/rungpt/)
+      * [ Sagemaker endpoint  ](../../api_reference/llms/sagemaker_endpoint/)
+      * [ Solar  ](../../api_reference/llms/solar/)
+      * [ Together  ](../../api_reference/llms/together/)
+      * [ Vertex  ](../../api_reference/llms/vertex/)
+      * [ Vllm  ](../../api_reference/llms/vllm/)
+      * [ Watsonx  ](../../api_reference/llms/watsonx/)
+      * [ Xinference  ](../../api_reference/llms/xinference/)
+    * [ Llama Datasets  ](../../api_reference/llama_dataset/)
+
+Llama Datasets
+
+    * [ Llama Packs  ](../../api_reference/packs/)
+
+Llama Packs
+
+      * [ Agent search retriever  ](../../api_reference/packs/agent_search_retriever/)
+      * [ Agents coa  ](../../api_reference/packs/agents_coa/)
+      * [ Agents lats  ](../../api_reference/packs/agents_lats/)
+      * [ Agents llm compiler  ](../../api_reference/packs/agents_llm_compiler/)
+      * [ Amazon product extraction  ](../../api_reference/packs/amazon_product_extraction/)
+      * [ Arize phoenix query engine  ](../../api_reference/packs/arize_phoenix_query_engine/)
+      * [ Auto merging retriever  ](../../api_reference/packs/auto_merging_retriever/)
+      * [ Chroma autoretrieval  ](../../api_reference/packs/chroma_autoretrieval/)
+      * [ Code hierarchy  ](../../api_reference/packs/code_hierarchy/)
+      * [ Cogniswitch agent  ](../../api_reference/packs/cogniswitch_agent/)
+      * [ Cohere citation chat  ](../../api_reference/packs/cohere_citation_chat/)
+      * [ Corrective rag  ](../../api_reference/packs/corrective_rag/)
+      * [ Deeplake deepmemory retriever  ](../../api_reference/packs/deeplake_deepmemory_retriever/)
+      * [ Deeplake multimodal retrieval  ](../../api_reference/packs/deeplake_multimodal_retrieval/)
+      * [ Dense x retrieval  ](../../api_reference/packs/dense_x_retrieval/)
+      * [ Diff private simple dataset  ](../../api_reference/packs/diff_private_simple_dataset/)
+      * [ Docugami kg rag  ](../../api_reference/packs/docugami_kg_rag/)
+      * [ Evaluator benchmarker  ](../../api_reference/packs/evaluator_benchmarker/)
+      * [ Finchat  ](../../api_reference/packs/finchat/)
+      * [ Fusion retriever  ](../../api_reference/packs/fusion_retriever/)
+      * [ Fuzzy citation  ](../../api_reference/packs/fuzzy_citation/)
+      * [ Gmail openai agent  ](../../api_reference/packs/gmail_openai_agent/)
+      * [ Gradio agent chat  ](../../api_reference/packs/gradio_agent_chat/)
+      * [ Gradio react agent chatbot  ](../../api_reference/packs/gradio_react_agent_chatbot/)
+      * [ Infer retrieve rerank  ](../../api_reference/packs/infer_retrieve_rerank/)
+      * [ Koda retriever  ](../../api_reference/packs/koda_retriever/)
+      * [ Llama dataset metadata  ](../../api_reference/packs/llama_dataset_metadata/)
+      * [ Llama guard moderator  ](../../api_reference/packs/llama_guard_moderator/)
+      * [ Llava completion  ](../../api_reference/packs/llava_completion/)
+      * [ Multi document agents  ](../../api_reference/packs/multi_document_agents/)
+      * [ Multi tenancy rag  ](../../api_reference/packs/multi_tenancy_rag/)
+      * [ Multidoc autoretrieval  ](../../api_reference/packs/multidoc_autoretrieval/)
+      * [ Nebulagraph query engine  ](../../api_reference/packs/nebulagraph_query_engine/)
+      * [ Neo4j query engine  ](../../api_reference/packs/neo4j_query_engine/)
+      * [ Node parser semantic chunking  ](../../api_reference/packs/node_parser_semantic_chunking/)
+      * [ Ollama query engine  ](../../api_reference/packs/ollama_query_engine/)
+      * [ Panel chatbot  ](../../api_reference/packs/panel_chatbot/)
+      * [ Query understanding agent  ](../../api_reference/packs/query_understanding_agent/)
+      * [ Raft dataset  ](../../api_reference/packs/raft_dataset/)
+      * [ Rag cli local  ](../../api_reference/packs/rag_cli_local/)
+      * [ Rag evaluator  ](../../api_reference/packs/rag_evaluator/)
+      * [ Rag fusion query pipeline  ](../../api_reference/packs/rag_fusion_query_pipeline/)
+      * [ Ragatouille retriever  ](../../api_reference/packs/ragatouille_retriever/)
+      * [ Raptor  ](../../api_reference/packs/raptor/)
+      * [ Recursive retriever  ](../../api_reference/packs/recursive_retriever/)
+      * [ Redis ingestion pipeline  ](../../api_reference/packs/redis_ingestion_pipeline/)
+      * [ Resume screener  ](../../api_reference/packs/resume_screener/)
+      * [ Retry engine weaviate  ](../../api_reference/packs/retry_engine_weaviate/)
+      * [ Searchain  ](../../api_reference/packs/searchain/)
+      * [ Self discover  ](../../api_reference/packs/self_discover/)
+      * [ Self rag  ](../../api_reference/packs/self_rag/)
+      * [ Sentence window retriever  ](../../api_reference/packs/sentence_window_retriever/)
+      * [ Snowflake query engine  ](../../api_reference/packs/snowflake_query_engine/)
+      * [ Stock market data query engine  ](../../api_reference/packs/stock_market_data_query_engine/)
+      * [ Streamlit chatbot  ](../../api_reference/packs/streamlit_chatbot/)
+      * [ Sub question weaviate  ](../../api_reference/packs/sub_question_weaviate/)
+      * [ Subdoc summary  ](../../api_reference/packs/subdoc_summary/)
+      * [ Tables  ](../../api_reference/packs/tables/)
+      * [ Timescale vector autoretrieval  ](../../api_reference/packs/timescale_vector_autoretrieval/)
+      * [ Trulens eval packs  ](../../api_reference/packs/trulens_eval_packs/)
+      * [ Vanna  ](../../api_reference/packs/vanna/)
+      * [ Vectara rag  ](../../api_reference/packs/vectara_rag/)
+      * [ Voyage query engine  ](../../api_reference/packs/voyage_query_engine/)
+      * [ Zephyr query engine  ](../../api_reference/packs/zephyr_query_engine/)
+    * [ Memory  ](../../api_reference/memory/)
+
+Memory
+
+      * [ Chat memory buffer  ](../../api_reference/memory/chat_memory_buffer/)
+    * [ Metadata Extractors  ](../../api_reference/extractors/)
+
+Metadata Extractors
+
+      * [ Entity  ](../../api_reference/extractors/entity/)
+      * [ Keyword  ](../../api_reference/extractors/keyword/)
+      * [ Marvin  ](../../api_reference/extractors/marvin/)
+      * [ Pydantic  ](../../api_reference/extractors/pydantic/)
+      * [ Question  ](../../api_reference/extractors/question/)
+      * [ Summary  ](../../api_reference/extractors/summary/)
+      * [ Title  ](../../api_reference/extractors/title/)
+    * [ Multi-Modal LLMs  ](../../api_reference/multi_modal_llms/)
+
+Multi-Modal LLMs
+
+      * [ Anthropic  ](../../api_reference/multi_modal_llms/anthropic/)
+      * [ Azure openai  ](../../api_reference/multi_modal_llms/azure_openai/)
+      * [ Dashscope  ](../../api_reference/multi_modal_llms/dashscope/)
+      * [ Gemini  ](../../api_reference/multi_modal_llms/gemini/)
+      * [ Ollama  ](../../api_reference/multi_modal_llms/ollama/)
+      * [ Openai  ](../../api_reference/multi_modal_llms/openai/)
+      * [ Replicate  ](../../api_reference/multi_modal_llms/replicate/)
+    * [ Node Parsers & Text Splitters  ](../../api_reference/node_parsers/)
+
+Node Parsers & Text Splitters
+
+      * [ Code  ](../../api_reference/node_parsers/code/)
+      * [ Hierarchical  ](../../api_reference/node_parsers/hierarchical/)
+      * [ Html  ](../../api_reference/node_parsers/html/)
+      * [ Json  ](../../api_reference/node_parsers/json/)
+      * [ Langchain  ](../../api_reference/node_parsers/langchain/)
+      * [ Markdown  ](../../api_reference/node_parsers/markdown/)
+      * [ Markdown element  ](../../api_reference/node_parsers/markdown_element/)
+      * [ Semantic splitter  ](../../api_reference/node_parsers/semantic_splitter/)
+      * [ Sentence splitter  ](../../api_reference/node_parsers/sentence_splitter/)
+      * [ Sentence window  ](../../api_reference/node_parsers/sentence_window/)
+      * [ Token text splitter  ](../../api_reference/node_parsers/token_text_splitter/)
+      * [ Unstructured element  ](../../api_reference/node_parsers/unstructured_element/)
+    * [ Node Postprocessors  ](../../api_reference/postprocessor/)
+
+Node Postprocessors
+
+      * [ NER PII  ](../../api_reference/postprocessor/NER_PII/)
+      * [ PII  ](../../api_reference/postprocessor/PII/)
+      * [ Auto prev next  ](../../api_reference/postprocessor/auto_prev_next/)
+      * [ Cohere rerank  ](../../api_reference/postprocessor/cohere_rerank/)
+      * [ Colbert rerank  ](../../api_reference/postprocessor/colbert_rerank/)
+      * [ Embedding recency  ](../../api_reference/postprocessor/embedding_recency/)
+      * [ Fixed recency  ](../../api_reference/postprocessor/fixed_recency/)
+      * [ Flag embedding reranker  ](../../api_reference/postprocessor/flag_embedding_reranker/)
+      * [ Jinaai rerank  ](../../api_reference/postprocessor/jinaai_rerank/)
+      * [ Keyword  ](../../api_reference/postprocessor/keyword/)
+      * [ Llm rerank  ](../../api_reference/postprocessor/llm_rerank/)
+      * [ Long context reorder  ](../../api_reference/postprocessor/long_context_reorder/)
+      * [ Longllmlingua  ](../../api_reference/postprocessor/longllmlingua/)
+      * [ Metadata replacement  ](../../api_reference/postprocessor/metadata_replacement/)
+      * [ Openvino rerank  ](../../api_reference/postprocessor/openvino_rerank/)
+      * [ Presidio  ](../../api_reference/postprocessor/presidio/)
+      * [ Prev next  ](../../api_reference/postprocessor/prev_next/)
+      * [ Rankgpt rerank  ](../../api_reference/postprocessor/rankgpt_rerank/)
+      * [ Rankllm rerank  ](../../api_reference/postprocessor/rankllm_rerank/)
+      * [ Sbert rerank  ](../../api_reference/postprocessor/sbert_rerank/)
+      * [ Sentence optimizer  ](../../api_reference/postprocessor/sentence_optimizer/)
+      * [ Similarity  ](../../api_reference/postprocessor/similarity/)
+      * [ Time weighted  ](../../api_reference/postprocessor/time_weighted/)
+      * [ Voyageai rerank  ](../../api_reference/postprocessor/voyageai_rerank/)
+    * [ Object Stores  ](../../api_reference/objects/)
+
+Object Stores
+
+    * [ Output Parsers  ](../../api_reference/output_parsers/)
+
+Output Parsers
+
+      * [ Guardrails  ](../../api_reference/output_parsers/guardrails/)
+      * [ Langchain  ](../../api_reference/output_parsers/langchain/)
+      * [ Pydantic  ](../../api_reference/output_parsers/pydantic/)
+      * [ Selection  ](../../api_reference/output_parsers/selection/)
+    * [ Programs  ](../../api_reference/program/)
+
+Programs
+
+      * [ Evaporate  ](../../api_reference/program/evaporate/)
+      * [ Guidance  ](../../api_reference/program/guidance/)
+      * [ Llm text completion  ](../../api_reference/program/llm_text_completion/)
+      * [ Lmformatenforcer  ](../../api_reference/program/lmformatenforcer/)
+      * [ Multi modal  ](../../api_reference/program/multi_modal/)
+      * [ Openai  ](../../api_reference/program/openai/)
+    * [ Prompts  ](../../api_reference/prompts/)
+
+Prompts
+
+    * [ Query Engines  ](../../api_reference/query_engine/)
+
+Query Engines
+
+      * [ FLARE  ](../../api_reference/query_engine/FLARE/)
+      * [ JSONalayze  ](../../api_reference/query_engine/JSONalayze/)
+      * [ NL SQL table  ](../../api_reference/query_engine/NL_SQL_table/)
+      * [ PGVector SQL  ](../../api_reference/query_engine/PGVector_SQL/)
+      * [ SQL join  ](../../api_reference/query_engine/SQL_join/)
+      * [ SQL table retriever  ](../../api_reference/query_engine/SQL_table_retriever/)
+      * [ Citation  ](../../api_reference/query_engine/citation/)
+      * [ Cogniswitch  ](../../api_reference/query_engine/cogniswitch/)
+      * [ Custom  ](../../api_reference/query_engine/custom/)
+      * [ Knowledge graph  ](../../api_reference/query_engine/knowledge_graph/)
+      * [ Multi step  ](../../api_reference/query_engine/multi_step/)
+      * [ Pandas  ](../../api_reference/query_engine/pandas/)
+      * [ Retriever  ](../../api_reference/query_engine/retriever/)
+      * [ Retriever router  ](../../api_reference/query_engine/retriever_router/)
+      * [ Retry  ](../../api_reference/query_engine/retry/)
+      * [ Router  ](../../api_reference/query_engine/router/)
+      * [ Simple multi modal  ](../../api_reference/query_engine/simple_multi_modal/)
+      * [ Sub question  ](../../api_reference/query_engine/sub_question/)
+      * [ Tool retriever router  ](../../api_reference/query_engine/tool_retriever_router/)
+      * [ Transform  ](../../api_reference/query_engine/transform/)
+    * [ Query Pipeline  ](../../api_reference/query_pipeline/)
+
+Query Pipeline
+
+      * [ Agent  ](../../api_reference/query_pipeline/agent/)
+      * [ Arg pack  ](../../api_reference/query_pipeline/arg_pack/)
+      * [ Custom  ](../../api_reference/query_pipeline/custom/)
+      * [ Function  ](../../api_reference/query_pipeline/function/)
+      * [ Input  ](../../api_reference/query_pipeline/input/)
+      * [ Llm  ](../../api_reference/query_pipeline/llm/)
+      * [ Multi modal  ](../../api_reference/query_pipeline/multi_modal/)
+      * [ Object  ](../../api_reference/query_pipeline/object/)
+      * [ Output parser  ](../../api_reference/query_pipeline/output_parser/)
+      * [ Postprocessor  ](../../api_reference/query_pipeline/postprocessor/)
+      * [ Prompt  ](../../api_reference/query_pipeline/prompt/)
+      * [ Query engine  ](../../api_reference/query_pipeline/query_engine/)
+      * [ Query transform  ](../../api_reference/query_pipeline/query_transform/)
+      * [ Retriever  ](../../api_reference/query_pipeline/retriever/)
+      * [ Router  ](../../api_reference/query_pipeline/router/)
+      * [ Synthesizer  ](../../api_reference/query_pipeline/synthesizer/)
+      * [ Tool runner  ](../../api_reference/query_pipeline/tool_runner/)
+    * [ Question Generators  ](../../api_reference/question_gen/)
+
+Question Generators
+
+      * [ Guidance  ](../../api_reference/question_gen/guidance/)
+      * [ Llm question gen  ](../../api_reference/question_gen/llm_question_gen/)
+      * [ Openai  ](../../api_reference/question_gen/openai/)
+    * [ Readers  ](../../api_reference/readers/)
+
+Readers
+
+      * [ Agent search  ](../../api_reference/readers/agent_search/)
+      * [ Airbyte cdk  ](../../api_reference/readers/airbyte_cdk/)
+      * [ Airbyte gong  ](../../api_reference/readers/airbyte_gong/)
+      * [ Airbyte hubspot  ](../../api_reference/readers/airbyte_hubspot/)
+      * [ Airbyte salesforce  ](../../api_reference/readers/airbyte_salesforce/)
+      * [ Airbyte shopify  ](../../api_reference/readers/airbyte_shopify/)
+      * [ Airbyte stripe  ](../../api_reference/readers/airbyte_stripe/)
+      * [ Airbyte typeform  ](../../api_reference/readers/airbyte_typeform/)
+      * [ Airbyte zendesk support  ](../../api_reference/readers/airbyte_zendesk_support/)
+      * [ Airtable  ](../../api_reference/readers/airtable/)
+      * [ Apify  ](../../api_reference/readers/apify/)
+      * [ Arango db  ](../../api_reference/readers/arango_db/)
+      * [ Arxiv  ](../../api_reference/readers/arxiv/)
+      * [ Asana  ](../../api_reference/readers/asana/)
+      * [ Assemblyai  ](../../api_reference/readers/assemblyai/)
+      * [ Astra db  ](../../api_reference/readers/astra_db/)
+      * [ Athena  ](../../api_reference/readers/athena/)
+      * [ Awadb  ](../../api_reference/readers/awadb/)
+      * [ Azcognitive search  ](../../api_reference/readers/azcognitive_search/)
+      * [ Azstorage blob  ](../../api_reference/readers/azstorage_blob/)
+      * [ Bagel  ](../../api_reference/readers/bagel/)
+      * [ Bilibili  ](../../api_reference/readers/bilibili/)
+      * [ Bitbucket  ](../../api_reference/readers/bitbucket/)
+      * [ Boarddocs  ](../../api_reference/readers/boarddocs/)
+      * [ Chatgpt plugin  ](../../api_reference/readers/chatgpt_plugin/)
+      * [ Chroma  ](../../api_reference/readers/chroma/)
+      * [ Clickhouse  ](../../api_reference/readers/clickhouse/)
+      * [ Confluence  ](../../api_reference/readers/confluence/)
+      * [ Couchbase  ](../../api_reference/readers/couchbase/)
+      * [ Couchdb  ](../../api_reference/readers/couchdb/)
+      * [ Dad jokes  ](../../api_reference/readers/dad_jokes/)
+      * [ Dashvector  ](../../api_reference/readers/dashvector/)
+      * [ Database  ](../../api_reference/readers/database/)
+      * [ Deeplake  ](../../api_reference/readers/deeplake/)
+      * [ Discord  ](../../api_reference/readers/discord/)
+      * [ Docstring walker  ](../../api_reference/readers/docstring_walker/)
+      * [ Docugami  ](../../api_reference/readers/docugami/)
+      * [ Earnings call transcript  ](../../api_reference/readers/earnings_call_transcript/)
+      * [ Elasticsearch  ](../../api_reference/readers/elasticsearch/)
+      * [ Faiss  ](../../api_reference/readers/faiss/)
+      * [ Feedly rss  ](../../api_reference/readers/feedly_rss/)
+      * [ Feishu docs  ](../../api_reference/readers/feishu_docs/)
+      * [ Feishu wiki  ](../../api_reference/readers/feishu_wiki/)
+      * [ File  ](../../api_reference/readers/file/)
+      * [ Firebase realtimedb  ](../../api_reference/readers/firebase_realtimedb/)
+      * [ Firestore  ](../../api_reference/readers/firestore/)
+      * [ Gcs  ](../../api_reference/readers/gcs/)
+      * [ Genius  ](../../api_reference/readers/genius/)
+      * [ Github  ](../../api_reference/readers/github/)
+      * [ Google  ](../../api_reference/readers/google/)
+      * [ Gpt repo  ](../../api_reference/readers/gpt_repo/)
+      * [ Graphdb cypher  ](../../api_reference/readers/graphdb_cypher/)
+      * [ Graphql  ](../../api_reference/readers/graphql/)
+      * [ Guru  ](../../api_reference/readers/guru/)
+      * [ Hatena blog  ](../../api_reference/readers/hatena_blog/)
+      * [ Hive  ](../../api_reference/readers/hive/)
+      * [ Hubspot  ](../../api_reference/readers/hubspot/)
+      * [ Huggingface fs  ](../../api_reference/readers/huggingface_fs/)
+      * [ Hwp  ](../../api_reference/readers/hwp/)
+      * [ Imdb review  ](../../api_reference/readers/imdb_review/)
+      * [ Intercom  ](../../api_reference/readers/intercom/)
+      * [ Jaguar  ](../../api_reference/readers/jaguar/)
+      * [ Jira  ](../../api_reference/readers/jira/)
+      * [ Joplin  ](../../api_reference/readers/joplin/)
+      * [ Json  ](../../api_reference/readers/json/)
+      * [ Kaltura esearch  ](../../api_reference/readers/kaltura_esearch/)
+      * [ Kibela  ](../../api_reference/readers/kibela/)
+      * [ Lilac  ](../../api_reference/readers/lilac/)
+      * [ Linear  ](../../api_reference/readers/linear/)
+      * [ Llama parse  ](../../api_reference/readers/llama_parse/)
+      * [ Macrometa gdn  ](../../api_reference/readers/macrometa_gdn/)
+      * [ Make com  ](../../api_reference/readers/make_com/)
+      * [ Mangadex  ](../../api_reference/readers/mangadex/)
+      * [ Mangoapps guides  ](../../api_reference/readers/mangoapps_guides/)
+      * [ Maps  ](../../api_reference/readers/maps/)
+      * [ Mbox  ](../../api_reference/readers/mbox/)
+      * [ Memos  ](../../api_reference/readers/memos/)
+      * [ Metal  ](../../api_reference/readers/metal/)
+      * [ Microsoft onedrive  ](../../api_reference/readers/microsoft_onedrive/)
+      * [ Microsoft outlook  ](../../api_reference/readers/microsoft_outlook/)
+      * [ Microsoft sharepoint  ](../../api_reference/readers/microsoft_sharepoint/)
+      * [ Milvus  ](../../api_reference/readers/milvus/)
+      * [ Minio  ](../../api_reference/readers/minio/)
+      * [ Mondaydotcom  ](../../api_reference/readers/mondaydotcom/)
+      * [ Mongodb  ](../../api_reference/readers/mongodb/)
+      * [ Myscale  ](../../api_reference/readers/myscale/)
+      * [ Notion  ](../../api_reference/readers/notion/)
+      * [ Nougat ocr  ](../../api_reference/readers/nougat_ocr/)
+      * [ Obsidian  ](../../api_reference/readers/obsidian/)
+      * [ Openalex  ](../../api_reference/readers/openalex/)
+      * [ Opendal  ](../../api_reference/readers/opendal/)
+      * [ Opensearch  ](../../api_reference/readers/opensearch/)
+      * [ Pandas ai  ](../../api_reference/readers/pandas_ai/)
+      * [ Papers  ](../../api_reference/readers/papers/)
+      * [ Patentsview  ](../../api_reference/readers/patentsview/)
+      * [ Pathway  ](../../api_reference/readers/pathway/)
+      * [ Pdb  ](../../api_reference/readers/pdb/)
+      * [ Pdf table  ](../../api_reference/readers/pdf_table/)
+      * [ Pinecone  ](../../api_reference/readers/pinecone/)
+      * [ Preprocess  ](../../api_reference/readers/preprocess/)
+      * [ Psychic  ](../../api_reference/readers/psychic/)
+      * [ Qdrant  ](../../api_reference/readers/qdrant/)
+      * [ Rayyan  ](../../api_reference/readers/rayyan/)
+      * [ Readme  ](../../api_reference/readers/readme/)
+      * [ Readwise  ](../../api_reference/readers/readwise/)
+      * [ Reddit  ](../../api_reference/readers/reddit/)
+      * [ Remote  ](../../api_reference/readers/remote/)
+      * [ Remote depth  ](../../api_reference/readers/remote_depth/)
+      * [ S3  ](../../api_reference/readers/s3/)
+      * [ Sec filings  ](../../api_reference/readers/sec_filings/)
+      * [ Semanticscholar  ](../../api_reference/readers/semanticscholar/)
+      * [ Simple directory reader  ](../../api_reference/readers/simple_directory_reader/)
+      * [ Singlestore  ](../../api_reference/readers/singlestore/)
+      * [ Slack  ](../../api_reference/readers/slack/)
+      * [ Smart pdf loader  ](../../api_reference/readers/smart_pdf_loader/)
+      * [ Snowflake  ](../../api_reference/readers/snowflake/)
+      * [ Snscrape twitter  ](../../api_reference/readers/snscrape_twitter/)
+      * [ Spotify  ](../../api_reference/readers/spotify/)
+      * [ Stackoverflow  ](../../api_reference/readers/stackoverflow/)
+      * [ Steamship  ](../../api_reference/readers/steamship/)
+      * [ String iterable  ](../../api_reference/readers/string_iterable/)
+      * [ Stripe docs  ](../../api_reference/readers/stripe_docs/)
+      * [ Telegram  ](../../api_reference/readers/telegram/)
+      * [ Trello  ](../../api_reference/readers/trello/)
+      * [ Twitter  ](../../api_reference/readers/twitter/)
+      * [ Txtai  ](../../api_reference/readers/txtai/)
+      * [ Weather  ](../../api_reference/readers/weather/)
+      * [ Weaviate  ](../../api_reference/readers/weaviate/)
+      * [ Web  ](../../api_reference/readers/web/)
+      * [ Whatsapp  ](../../api_reference/readers/whatsapp/)
+      * [ Wikipedia  ](../../api_reference/readers/wikipedia/)
+      * [ Wordlift  ](../../api_reference/readers/wordlift/)
+      * [ Wordpress  ](../../api_reference/readers/wordpress/)
+      * [ Youtube transcript  ](../../api_reference/readers/youtube_transcript/)
+      * [ Zendesk  ](../../api_reference/readers/zendesk/)
+      * [ Zep  ](../../api_reference/readers/zep/)
+      * [ Zulip  ](../../api_reference/readers/zulip/)
+    * [ Response Synthesizers  ](../../api_reference/response_synthesizers/)
+
+Response Synthesizers
+
+      * [ Accumulate  ](../../api_reference/response_synthesizers/accumulate/)
+      * [ Compact accumulate  ](../../api_reference/response_synthesizers/compact_accumulate/)
+      * [ Compact and refine  ](../../api_reference/response_synthesizers/compact_and_refine/)
+      * [ Generation  ](../../api_reference/response_synthesizers/generation/)
+      * [ Google  ](../../api_reference/response_synthesizers/google/)
+      * [ Refine  ](../../api_reference/response_synthesizers/refine/)
+      * [ Simple summarize  ](../../api_reference/response_synthesizers/simple_summarize/)
+      * [ Tree summarize  ](../../api_reference/response_synthesizers/tree_summarize/)
+    * [ Retrievers  ](../../api_reference/retrievers/)
+
+Retrievers
+
+      * [ Auto merging  ](../../api_reference/retrievers/auto_merging/)
+      * [ Bedrock  ](../../api_reference/retrievers/bedrock/)
+      * [ Bm25  ](../../api_reference/retrievers/bm25/)
+      * [ Keyword  ](../../api_reference/retrievers/keyword/)
+      * [ Knowledge graph  ](../../api_reference/retrievers/knowledge_graph/)
+      * [ Mongodb atlas bm25 retriever  ](../../api_reference/retrievers/mongodb_atlas_bm25_retriever/)
+      * [ Pathway  ](../../api_reference/retrievers/pathway/)
+      * [ Query fusion  ](../../api_reference/retrievers/query_fusion/)
+      * [ Recursive  ](../../api_reference/retrievers/recursive/)
+      * [ Router  ](../../api_reference/retrievers/router/)
+      * [ Sql  ](../../api_reference/retrievers/sql/)
+      * [ Summary  ](../../api_reference/retrievers/summary/)
+      * [ Transform  ](../../api_reference/retrievers/transform/)
+      * [ Tree  ](../../api_reference/retrievers/tree/)
+      * [ Vector  ](../../api_reference/retrievers/vector/)
+      * [ Videodb  ](../../api_reference/retrievers/videodb/)
+      * [ You  ](../../api_reference/retrievers/you/)
+    * [ Schema  ](../../api_reference/schema/)
+
+Schema
+
+    * Storage  Storage 
+      * [ Chat Store  ](../../api_reference/storage/chat_store/)
+
+Chat Store
+
+        * [ Redis  ](../../api_reference/storage/chat_store/redis/)
+        * [ Simple  ](../../api_reference/storage/chat_store/simple/)
+      * [ Docstore  ](../../api_reference/storage/docstore/)
+
+Docstore
+
+        * [ Dynamodb  ](../../api_reference/storage/docstore/dynamodb/)
+        * [ Elasticsearch  ](../../api_reference/storage/docstore/elasticsearch/)
+        * [ Firestore  ](../../api_reference/storage/docstore/firestore/)
+        * [ Mongodb  ](../../api_reference/storage/docstore/mongodb/)
+        * [ Postgres  ](../../api_reference/storage/docstore/postgres/)
+        * [ Redis  ](../../api_reference/storage/docstore/redis/)
+        * [ Simple  ](../../api_reference/storage/docstore/simple/)
+      * [ Graph Stores  ](../../api_reference/storage/graph_stores/)
+
+Graph Stores
+
+        * [ Falkordb  ](../../api_reference/storage/graph_stores/falkordb/)
+        * [ Kuzu  ](../../api_reference/storage/graph_stores/kuzu/)
+        * [ Nebula  ](../../api_reference/storage/graph_stores/nebula/)
+        * [ Neo4j  ](../../api_reference/storage/graph_stores/neo4j/)
+        * [ Neptune  ](../../api_reference/storage/graph_stores/neptune/)
+        * [ Simple  ](../../api_reference/storage/graph_stores/simple/)
+      * [ Index Store  ](../../api_reference/storage/index_store/)
+
+Index Store
+
+        * [ Dynamodb  ](../../api_reference/storage/index_store/dynamodb/)
+        * [ Elasticsearch  ](../../api_reference/storage/index_store/elasticsearch/)
+        * [ Firestore  ](../../api_reference/storage/index_store/firestore/)
+        * [ Mongodb  ](../../api_reference/storage/index_store/mongodb/)
+        * [ Postgres  ](../../api_reference/storage/index_store/postgres/)
+        * [ Redis  ](../../api_reference/storage/index_store/redis/)
+        * [ Simple  ](../../api_reference/storage/index_store/simple/)
+      * [ Kvstore  ](../../api_reference/storage/kvstore/)
+
+Kvstore
+
+        * [ Dynamodb  ](../../api_reference/storage/kvstore/dynamodb/)
+        * [ Elasticsearch  ](../../api_reference/storage/kvstore/elasticsearch/)
+        * [ Firestore  ](../../api_reference/storage/kvstore/firestore/)
+        * [ Mongodb  ](../../api_reference/storage/kvstore/mongodb/)
+        * [ Postgres  ](../../api_reference/storage/kvstore/postgres/)
+        * [ Redis  ](../../api_reference/storage/kvstore/redis/)
+        * [ S3  ](../../api_reference/storage/kvstore/s3/)
+        * [ Simple  ](../../api_reference/storage/kvstore/simple/)
+      * Storage  Storage 
+        * [ Storage context  ](../../api_reference/storage/storage_context/)
+      * [ Vector Store  ](../../api_reference/storage/vector_store/)
+
+Vector Store
+
+        * [ Analyticdb  ](../../api_reference/storage/vector_store/analyticdb/)
+        * [ Astra db  ](../../api_reference/storage/vector_store/astra_db/)
+        * [ Awadb  ](../../api_reference/storage/vector_store/awadb/)
+        * [ Azureaisearch  ](../../api_reference/storage/vector_store/azureaisearch/)
+        * [ Azurecosmosmongo  ](../../api_reference/storage/vector_store/azurecosmosmongo/)
+        * [ Bagel  ](../../api_reference/storage/vector_store/bagel/)
+        * [ Baiduvectordb  ](../../api_reference/storage/vector_store/baiduvectordb/)
+        * [ Cassandra  ](../../api_reference/storage/vector_store/cassandra/)
+        * [ Chatgpt plugin  ](../../api_reference/storage/vector_store/chatgpt_plugin/)
+        * [ Chroma  ](../../api_reference/storage/vector_store/chroma/)
+        * [ Clickhouse  ](../../api_reference/storage/vector_store/clickhouse/)
+        * [ Couchbase  ](../../api_reference/storage/vector_store/couchbase/)
+        * [ Dashvector  ](../../api_reference/storage/vector_store/dashvector/)
+        * [ Databricks  ](../../api_reference/storage/vector_store/databricks/)
+        * [ Deeplake  ](../../api_reference/storage/vector_store/deeplake/)
+        * [ Docarray  ](../../api_reference/storage/vector_store/docarray/)
+        * [ Duckdb  ](../../api_reference/storage/vector_store/duckdb/)
+        * [ Dynamodb  ](../../api_reference/storage/vector_store/dynamodb/)
+        * [ Elasticsearch  ](../../api_reference/storage/vector_store/elasticsearch/)
+        * [ Epsilla  ](../../api_reference/storage/vector_store/epsilla/)
+        * [ Faiss  ](../../api_reference/storage/vector_store/faiss/)
+        * [ Google  ](../../api_reference/storage/vector_store/google/)
+        * [ Jaguar  ](../../api_reference/storage/vector_store/jaguar/)
+        * [ Kdbai  ](../../api_reference/storage/vector_store/kdbai/)
+        * [ Lancedb  ](../../api_reference/storage/vector_store/lancedb/)
+        * [ Lantern  ](../../api_reference/storage/vector_store/lantern/)
+        * [ Metal  ](../../api_reference/storage/vector_store/metal/)
+        * [ Milvus  ](../../api_reference/storage/vector_store/milvus/)
+        * [ Mongodb  ](../../api_reference/storage/vector_store/mongodb/)
+        * [ Myscale  ](../../api_reference/storage/vector_store/myscale/)
+        * [ Neo4jvector  ](../../api_reference/storage/vector_store/neo4jvector/)
+        * [ Neptune  ](../../api_reference/storage/vector_store/neptune/)
+        * [ Opensearch  ](../../api_reference/storage/vector_store/opensearch/)
+        * [ Pgvecto rs  ](../../api_reference/storage/vector_store/pgvecto_rs/)
+        * [ Pinecone  ](../../api_reference/storage/vector_store/pinecone/)
+        * [ Postgres  ](../../api_reference/storage/vector_store/postgres/)
+        * [ Qdrant  ](../../api_reference/storage/vector_store/qdrant/)
+        * [ Redis  ](../../api_reference/storage/vector_store/redis/)
+        * [ Rocksetdb  ](../../api_reference/storage/vector_store/rocksetdb/)
+        * [ Simple  ](../../api_reference/storage/vector_store/simple/)
+        * [ Singlestoredb  ](../../api_reference/storage/vector_store/singlestoredb/)
+        * [ Supabase  ](../../api_reference/storage/vector_store/supabase/)
+        * [ Tair  ](../../api_reference/storage/vector_store/tair/)
+        * [ Tencentvectordb  ](../../api_reference/storage/vector_store/tencentvectordb/)
+        * [ Tidbvector  ](../../api_reference/storage/vector_store/tidbvector/)
+        * [ Timescalevector  ](../../api_reference/storage/vector_store/timescalevector/)
+        * [ Txtai  ](../../api_reference/storage/vector_store/txtai/)
+        * [ Typesense  ](../../api_reference/storage/vector_store/typesense/)
+        * [ Upstash  ](../../api_reference/storage/vector_store/upstash/)
+        * [ Vearch  ](../../api_reference/storage/vector_store/vearch/)
+        * [ Weaviate  ](../../api_reference/storage/vector_store/weaviate/)
+        * [ Zep  ](../../api_reference/storage/vector_store/zep/)
+    * [ Tools  ](../../api_reference/tools/)
+
+Tools
+
+      * [ Arxiv  ](../../api_reference/tools/arxiv/)
+      * [ Azure cv  ](../../api_reference/tools/azure_cv/)
+      * [ Azure speech  ](../../api_reference/tools/azure_speech/)
+      * [ Azure translate  ](../../api_reference/tools/azure_translate/)
+      * [ Bing search  ](../../api_reference/tools/bing_search/)
+      * [ Brave search  ](../../api_reference/tools/brave_search/)
+      * [ Chatgpt plugin  ](../../api_reference/tools/chatgpt_plugin/)
+      * [ Code interpreter  ](../../api_reference/tools/code_interpreter/)
+      * [ Cogniswitch  ](../../api_reference/tools/cogniswitch/)
+      * [ Database  ](../../api_reference/tools/database/)
+      * [ Duckduckgo  ](../../api_reference/tools/duckduckgo/)
+      * [ Exa  ](../../api_reference/tools/exa/)
+      * [ Finance  ](../../api_reference/tools/finance/)
+      * [ Function  ](../../api_reference/tools/function/)
+      * [ Google  ](../../api_reference/tools/google/)
+      * [ Graphql  ](../../api_reference/tools/graphql/)
+      * [ Ionic shopping  ](../../api_reference/tools/ionic_shopping/)
+      * [ Load and search  ](../../api_reference/tools/load_and_search/)
+      * [ Metaphor  ](../../api_reference/tools/metaphor/)
+      * [ Multion  ](../../api_reference/tools/multion/)
+      * [ Neo4j  ](../../api_reference/tools/neo4j/)
+      * [ Notion  ](../../api_reference/tools/notion/)
+      * [ Ondemand loader  ](../../api_reference/tools/ondemand_loader/)
+      * [ Openai  ](../../api_reference/tools/openai/)
+      * [ Openapi  ](../../api_reference/tools/openapi/)
+      * [ Passio nutrition ai  ](../../api_reference/tools/passio_nutrition_ai/)
+      * [ Playgrounds  ](../../api_reference/tools/playgrounds/)
+      * [ Python file  ](../../api_reference/tools/python_file/)
+      * [ Query engine  ](../../api_reference/tools/query_engine/)
+      * [ Query plan  ](../../api_reference/tools/query_plan/)
+      * [ Requests  ](../../api_reference/tools/requests/)
+      * [ Retriever  ](../../api_reference/tools/retriever/)
+      * [ Salesforce  ](../../api_reference/tools/salesforce/)
+      * [ Shopify  ](../../api_reference/tools/shopify/)
+      * [ Slack  ](../../api_reference/tools/slack/)
+      * [ Tavily research  ](../../api_reference/tools/tavily_research/)
+      * [ Text to image  ](../../api_reference/tools/text_to_image/)
+      * [ Tool spec  ](../../api_reference/tools/tool_spec/)
+      * [ Vector db  ](../../api_reference/tools/vector_db/)
+      * [ Waii  ](../../api_reference/tools/waii/)
+      * [ Weather  ](../../api_reference/tools/weather/)
+      * [ Wikipedia  ](../../api_reference/tools/wikipedia/)
+      * [ Wolfram alpha  ](../../api_reference/tools/wolfram_alpha/)
+      * [ Yahoo finance  ](../../api_reference/tools/yahoo_finance/)
+      * [ Yelp  ](../../api_reference/tools/yelp/)
+      * [ Zapier  ](../../api_reference/tools/zapier/)
+  * [ Open-Source Community  ](../../community/llama_packs/)
+
+Open-Source Community
+
+    * [ Integrations  ](../../community/integrations/)
+    * [ Full Stack Projects  ](../../community/full_stack_projects/)
+    * Community FAQ  Community FAQ 
+      * [ Chat Engines  ](../../community/faq/chat_engines/)
+      * [ Documents and Nodes  ](../../community/faq/documents_and_nodes/)
+      * [ Embeddings  ](../../community/faq/embeddings/)
+      * [ Large Language Models  ](../../community/faq/llms/)
+      * [ Query Engines  ](../../community/faq/query_engines/)
+      * [ Vector Database  ](../../community/faq/vector_database/)
+    * Contributing  Contributing 
+      * [ Code  ](../../CONTRIBUTING/)
+      * [ Docs  ](../../DOCS_README/)
+    * [ Changelog  ](../../CHANGELOG/)
+    * [ Presentations  ](../../presentations/past_presentations/)
+    * [ Upgrading to v0.10.x  ](../v0_10_0_migration/)
+    * [ Deprecated Terms  ](../../changes/deprecated_terms/)
+
+Table of contents
+
+  * Retrieval Augmented Generation (RAG) 
+  * Stages within RAG 
+  * Important concepts within each step 
+    * Loading stage 
+    * Indexing Stage 
+    * Querying Stage 
+    * Putting it all together 
+
+# High-Level Concepts#
+
+This is a quick guide to the high-level concepts you'll encounter frequently
+when building LLM applications.
+
+Tip
+
+If you haven't, [install LlamaIndex](../installation/) and complete the
+[starter tutorial](../starter_example/) before you read this. It will help
+ground these steps in your experience.
+
+## Retrieval Augmented Generation (RAG)#
+
+LLMs are trained on enormous bodies of data but they aren't trained on
+**your** data. Retrieval-Augmented Generation (RAG) solves this problem by
+adding your data to the data LLMs already have access to. You will see
+references to RAG frequently in this documentation.
+
+In RAG, your data is loaded and prepared for queries or "indexed". User
+queries act on the index, which filters your data down to the most relevant
+context. This context and your query then go to the LLM along with a prompt,
+and the LLM provides a response.
+
+Even if what you're building is a chatbot or an agent, you'll want to know RAG
+techniques for getting data into your application.
+
+![](../../_static/getting_started/basic_rag.png)
+
+## Stages within RAG#
+
+There are five key stages within RAG, which in turn will be a part of any
+larger application you build. These are:
+
+  * **Loading** : this refers to getting your data from where it lives -- whether it's text files, PDFs, another website, a database, or an API -- into your pipeline. [LlamaHub](https://llamahub.ai/) provides hundreds of connectors to choose from.
+
+  * **Indexing** : this means creating a data structure that allows for querying the data. For LLMs this nearly always means creating `vector embeddings`, numerical representations of the meaning of your data, as well as numerous other metadata strategies to make it easy to accurately find contextually relevant data. 
+
+  * **Storing** : once your data is indexed you will almost always want to store your index, as well as other metadata, to avoid having to re-index it.
+
+  * **Querying** : for any given indexing strategy there are many ways you can utilize LLMs and LlamaIndex data structures to query, including sub-queries, multi-step queries and hybrid strategies.
+
+  * **Evaluation** : a critical step in any pipeline is checking how effective it is relative to other strategies, or when you make changes. Evaluation provides objective measures of how accurate, faithful and fast your responses to queries are.
+
+![](../../_static/getting_started/stages.png)
+
+## Important concepts within each step#
+
+There are also some terms you'll encounter that refer to steps within each of
+these stages.
+
+### Loading stage#
+
+[**Nodes and Documents**](../../module_guides/loading/documents_and_nodes/): A
+`Document` is a container around any data source - for instance, a PDF, an API
+output, or retrieve data from a database. A `Node` is the atomic unit of data
+in LlamaIndex and represents a "chunk" of a source `Document`. Nodes have
+metadata that relate them to the document they are in and to other nodes.
+
+[**Connectors**](../../module_guides/loading/connector/): A data connector
+(often called a `Reader`) ingests data from different data sources and data
+formats into `Documents` and `Nodes`.
+
+### Indexing Stage#
+
+[**Indexes**](../../module_guides/indexing/): Once you've ingested your data,
+LlamaIndex will help you index the data into a structure that's easy to
+retrieve. This usually involves generating `vector embeddings` which are
+stored in a specialized database called a `vector store`. Indexes can also
+store a variety of metadata about your data.
+
+[**Embeddings**](../../module_guides/models/embeddings/) LLMs generate
+numerical representations of data called `embeddings`. When filtering your
+data for relevance, LlamaIndex will convert queries into embeddings, and your
+vector store will find data that is numerically similar to the embedding of
+your query.
+
+### Querying Stage#
+
+[**Retrievers**](../../module_guides/querying/retriever/): A retriever defines
+how to efficiently retrieve relevant context from an index when given a query.
+Your retrieval strategy is key to the relevancy of the data retrieved and the
+efficiency with which it's done.
+
+[**Routers**](../../module_guides/querying/router/): A router determines which
+retriever will be used to retrieve relevant context from the knowledge base.
+More specifically, the `RouterRetriever` class, is responsible for selecting
+one or multiple candidate retrievers to execute a query. They use a selector
+to choose the best option based on each candidate's metadata and the query.
+
+[**Node Postprocessors**](../../module_guides/querying/node_postprocessors/):
+A node postprocessor takes in a set of retrieved nodes and applies
+transformations, filtering, or re-ranking logic to them.
+
+[**Response
+Synthesizers**](../../module_guides/querying/response_synthesizers/): A
+response synthesizer generates a response from an LLM, using a user query and
+a given set of retrieved text chunks.
+
+### Putting it all together#
+
+There are endless use cases for data-backed LLM applications but they can be
+roughly grouped into three categories:
+
+[**Query Engines**](../../module_guides/deploying/query_engine/): A query
+engine is an end-to-end pipeline that allows you to ask questions over your
+data. It takes in a natural language query, and returns a response, along with
+reference context retrieved and passed to the LLM.
+
+[**Chat Engines**](../../module_guides/deploying/chat_engines/): A chat engine
+is an end-to-end pipeline for having a conversation with your data (multiple
+back-and-forth instead of a single question-and-answer).
+
+[**Agents**](../../module_guides/deploying/agents/): An agent is an automated
+decision-maker powered by an LLM that interacts with the world via a set of
+[tools](../../module_guides/deploying/agents/tools/llamahub_tools_guide/).
+Agents can take an arbitrary number of steps to complete a given task,
+dynamically deciding on the best course of action rather than following pre-
+determined steps. This gives it additional flexibility to tackle more complex
+tasks.
+
+Tip
+
+  * Tell me how to [customize things](../customization/)
+  * Continue learning with our [understanding LlamaIndex](../../understanding/) guide
+  * Ready to dig deep? Check out the [component guides](../../module_guides/)
+
+Back to top  [ Previous  LlamaIndex  ](../..) [ Next  Installation and Setup
+](../installation/)
+
