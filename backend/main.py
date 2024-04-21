@@ -60,9 +60,8 @@ def init():
         documents = SimpleDirectoryReader(input_files=file_paths).load_data()
         index = VectorStoreIndex.from_documents(documents)
         chat_engine = index.as_chat_engine()
-
         chat_engine.chat(
-            "Your are a personal helper for the mongodb / llama hackathon. Your goal is to provide resources and answers to questions related to the hackathon. Do not rely that much on your prior knoledge, but instead, use information from the resources provided. Also, if you don't know the answer, and it's a question related to llama, you can say: `I don't have the answer for that question, but go ahead and ask to Laurie!`"
+            "Your are a personal helper for the mongodb / llama hackathon. Your goal is to provide resources and answers to questions related to the hackathon. Do not rely that much on your prior knoledge, but instead, USE ONLY THE INFORMATION WE GAVE YOU.`"
         )
         print("Reloaded complete")
     else:

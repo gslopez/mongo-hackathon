@@ -1,0 +1,25 @@
+
+## Set llm model and embeded_model
+```
+Settings.llm = llm
+Settings.embed_model = embed_model
+```
+
+## Start a chat engine
+```
+documents = SimpleDirectoryReader(input_files=file_paths).load_data()
+index = VectorStoreIndex.from_documents(documents)
+chat_engine = index.as_chat_engine()
+```
+
+## restart chat
+```
+chat_engine.reset()
+```
+
+## Query your data using data index
+```
+query_engine = index.as_query_engine()
+response = query_engine.query("What did the author do growing up?")
+print(response)
+```
