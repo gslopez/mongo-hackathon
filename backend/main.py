@@ -1,6 +1,6 @@
 import json
-from flask import Flask
-from flask import request
+from time import sleep
+from flask import Flask, Response, request, jsonify
 
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from dotenv import load_dotenv
@@ -15,7 +15,10 @@ import os
 load_dotenv()
 
 embed_model = OpenAIEmbedding(model="text-embedding-3-large")
-llm = OpenAI()
+# model = "gpt-3.5-turbo"
+# model = "gpt-4-turbo"
+model = "gpt-4"
+llm = OpenAI(model=model)
 
 Settings.llm = llm
 Settings.embed_model = embed_model
@@ -58,25 +61,42 @@ def init():
         print("RELOAD SKIPPED")
 
 
-init()
+def get_response(response_dict):
+    response = jsonify(response_dict)
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    return response
 
 
 @app.route("/reset", methods=["POST"])
 def reset():
     chat_engine.reset()
-    return {"status": 1}
+    return get_response({"status": 1})
 
 
 @app.route("/chat", methods=["POST"])
 def chat():
     params = json.loads(request.data)
     response = chat_engine.chat(params["message"])
-    return {"status": 1, "result": str(response)}
+    return get_response({"status": 1, "result": str(response)})
+
+
+# @app.route("/stream-chat", methods=["POST"])
+# def stream_chat():
+#     params = json.loads(request.data)
+
+#     streaming_response = chat_engine.stream_chat(params["message"])
+
+#     def generate():
+#         for token in streaming_response.response_gen:
+#             yield token
+
+#     return Response(generate(), mimetype="text")
 
 
 @app.route("/")
 def root():
-    return {"message": "Root!", "chat_engine": str(chat_engine)}
+    return get_response({"message": "Root!", "chat_engine": str(chat_engine)})
 
 
+init()
 # flask --app main run --debug
