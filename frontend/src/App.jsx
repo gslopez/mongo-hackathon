@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import axios from 'axios';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 const baseUrl = "http://127.0.0.1:5000"
 
@@ -88,7 +90,12 @@ function App() {
                   </div>
                   <div className="flex flex-col ml-1">
                     {chat.question && <p className="opacity-70 mb-2">{chat.question}</p>}
-                    <p className="overflow-wrap">{chat.response}</p>
+                    <ReactMarkdown
+                      remarkPlugins={[remarkGfm]}
+                      components={{
+                        a: ({node, ...props}) => <a target="_blank" style={{ color: 'blue' }} {...props} />
+                      }}
+                      >{chat.response}</ReactMarkdown>
                   </div>
                 </div>
               )
