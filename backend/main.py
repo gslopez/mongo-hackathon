@@ -1,7 +1,7 @@
 import json
 from time import sleep
 from flask import Flask, Response, request, jsonify
-
+from flask_cors import CORS
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from dotenv import load_dotenv
 from llama_index.embeddings.openai import OpenAIEmbedding
@@ -23,6 +23,7 @@ llm = OpenAI(model=model)
 Settings.llm = llm
 Settings.embed_model = embed_model
 app = Flask(__name__)
+CORS(app)
 FORCE_RELOAD = False
 
 chat_engine = None
