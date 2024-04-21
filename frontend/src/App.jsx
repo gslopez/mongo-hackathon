@@ -25,6 +25,12 @@ function App() {
   const sendQuery = async (questionToSend) => {
     setQuestionLoading(questionToSend)
     setQuestion("")
+    setTimeout(() => {
+      inputRef.current?.focus?.()
+      if (divRef.current) {
+        divRef.current.scrollTop = -1 * divRef.current.scrollHeight;
+      }
+    }, 1)
     try {
       const response = await axios.post(`${baseUrl}/chat`, { message: questionToSend }, {
         headers: {
@@ -46,10 +52,10 @@ function App() {
     }
     setQuestionLoading("")
     setTimeout(() => {
+      inputRef.current?.focus?.()
       if (divRef.current) {
         divRef.current.scrollTop = -1 * divRef.current.scrollHeight;
       }
-      inputRef.current?.focus?.()
     }, 1)
   }
   
