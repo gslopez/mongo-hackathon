@@ -17,8 +17,10 @@ load_dotenv()
 embed_model = OpenAIEmbedding(model="text-embedding-3-large")
 # model = "gpt-3.5-turbo"
 # model = "gpt-4-turbo"
-model = "gpt-4"
-llm = OpenAI(model=model)
+# model = "gpt-4"
+# model = None
+# llm = OpenAI(model=model)
+llm = OpenAI()
 
 Settings.llm = llm
 Settings.embed_model = embed_model
@@ -53,18 +55,19 @@ def get_transformed_files():
 def init():
     global chat_engine
     if FORCE_RELOAD or not chat_engine:
-        print("RELOADED")
+        print("Reloaded started...")
         file_paths = get_transformed_files()
         documents = SimpleDirectoryReader(input_files=file_paths).load_data()
         index = VectorStoreIndex.from_documents(documents)
         chat_engine = index.as_chat_engine()
+        print("Reloaded complete")
     else:
         print("RELOAD SKIPPED")
 
 
 def get_response(response_dict):
     response = jsonify(response_dict)
-    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers["Access-Control-Allow-Origin"] = "*"
     return response
 
 
