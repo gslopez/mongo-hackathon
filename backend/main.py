@@ -64,17 +64,19 @@ def init():
 
 def get_response(response_dict):
     response = jsonify(response_dict)
-    response.headers.add("Access-Control-Allow-Origin", "*")
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'POST, GET, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
     return response
 
 
-@app.route("/reset", methods=["POST"])
+@app.route("/reset", methods=["POST", "OPTIONS"])
 def reset():
     chat_engine.reset()
     return get_response({"status": 1})
 
 
-@app.route("/chat", methods=["POST"])
+@app.route("/chat", methods=["POST", "OPTIONS"])
 def chat():
     params = json.loads(request.data)
     response = chat_engine.chat(params["message"])
