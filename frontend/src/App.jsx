@@ -1,17 +1,16 @@
 import { useEffect, useRef, useState } from "react"
+import axios from 'axios';
 
 const baseUrl = "http://127.0.0.1:5000"
 
 function App() {
 
   useEffect(() => {
-    fetch(`${baseUrl}/reset`, {
-      method: 'POST',
+    axios.post(`${baseUrl}/reset`, { hi: "hi" }, {
       headers: {
         'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({})
-    });
+      }
+    })
   }, [])
 
   const [question, setQuestion] = useState("")
@@ -23,19 +22,16 @@ function App() {
     setLoading(true)
     setQuestion("")
     try {
-      const response = await fetch(`${baseUrl}/chat`, {
-        method: 'POST',
+      const response = await axios.post(`${baseUrl}/chat`, { message: questionToSend }, {
         headers: {
           'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          message: questionToSend
-        })
-      });
-      if (response.body.status === "1") {
+        }
+      })
+      console.log("response", response)
+      if (response.data.status === 1) {
         setChat([...chat, {
           question: questionToSend,
-          response: response.body.result,
+          response: response.data.result,
         }])
       } else {
         throw "error"
@@ -74,17 +70,7 @@ function App() {
               </div>
             </div>
           </div>
-          { chat.length > 0 && <div ref={divRef} className="w-full border border-black mt-4 max-h-[520px] rounded-md overflow-y-scroll px-3 py-2 flex flex-col-reverse">
-            {loading && <div>
-              <div key="loading" className="flex flex-row mb-2">
-                  <div>
-                    <p>{">"}</p>
-                  </div>
-                  <div className="flex flex-col ml-1">
-                    <p className="overflow-wrap">Loading...</p>
-                  </div>
-                </div>
-            </div>}
+          {(chat.length > 0 || loading) && <div ref={divRef} className="w-full border border-black mt-4 max-h-[520px] rounded-md overflow-y-scroll px-3 py-2 flex flex-col-reverse">
             {chat.map((chat, index) => {
               return (
                 <div key={index} className="flex flex-row mb-2">
@@ -98,6 +84,16 @@ function App() {
                 </div>
               )
             })}
+            {loading && <div key="loading">
+              <div key="loading" className="flex flex-row mb-2">
+                <div>
+                  <p>{">"}</p>
+                </div>
+                <div className="flex flex-col ml-1">
+                  <p className="overflow-wrap">Loading...</p>
+                </div>
+              </div>
+            </div>}
           </div>}
           <div className="lg:ml-auto mt-auto pt-5">
             {/* <span className="opacity-70">Created with</span> ❤️ <span className="opacity-70">by Sam Hernandez</span> */}
