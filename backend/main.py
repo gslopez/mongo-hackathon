@@ -65,19 +65,21 @@ def init():
 def get_response(response_dict):
     response = jsonify(response_dict)
     response.headers['Access-Control-Allow-Origin'] = '*'
-    response.headers['Access-Control-Allow-Methods'] = 'POST, GET, OPTIONS'
-    response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
     return response
 
 
 @app.route("/reset", methods=["POST", "OPTIONS"])
 def reset():
+    if request.method == "OPTIONS":
+        return {}
     chat_engine.reset()
     return get_response({"status": 1})
 
 
 @app.route("/chat", methods=["POST", "OPTIONS"])
 def chat():
+    if request.method == "OPTIONS":
+        return {}
     params = json.loads(request.data)
     response = chat_engine.chat(params["message"])
     return get_response({"status": 1, "result": str(response)})
@@ -98,6 +100,8 @@ def chat():
 
 @app.route("/")
 def root():
+    if request.method == "OPTIONS":
+        return {}
     return get_response({"message": "Root!", "chat_engine": str(chat_engine)})
 
 
