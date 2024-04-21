@@ -25,12 +25,10 @@ function App() {
       const response = await axios.post(`${baseUrl}/chat`, { message: questionToSend }, {
         headers: {
           'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          message: questionToSend
-        })
-      });
-      if (response.body.status === 1) {
+        }
+      })
+      console.log("response", response)
+      if (response.data.status === 1) {
         setChat([...chat, {
           question: questionToSend,
           response: response.data.result,
