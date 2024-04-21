@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 
-const baseUrl = "127.0.0.1:5000"
+const baseUrl = "http://127.0.0.1:5000"
 
 function App() {
 
@@ -16,9 +16,11 @@ function App() {
 
   const [question, setQuestion] = useState("")
   const [chat, setChat] = useState([])
+  const [loading, setLoading] = useState(false)
   const divRef = useRef()
 
-  const sendQuery = async (question) => {
+  const sendQuery = async (questionToSend) => {
+    setLoading(true)
     setQuestion("")
     try {
       const response = await fetch(`${baseUrl}/chat`, {
@@ -27,22 +29,26 @@ function App() {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          message: question
+          message: questionToSend
         })
       });
-      setChat([...chat, {
-        question,
-        response: response.body.result,
-      }])
+      if (response.body.status === "1") {
+        setChat([...chat, {
+          question: questionToSend,
+          response: response.body.result,
+        }])
+      } else {
+        throw "error"
+      }
     } catch (e) {
+      alert("error")
       console.log(e)
-      setChat([...chat, {
-        question: "mama?",
-        response: exampleResponse,
-      }])
     }
+    setLoading(false)
     setTimeout(() => {
-      divRef.current.scrollTop = -1 * divRef.current.scrollHeight;
+      if (divRef.current) {
+        divRef.current.scrollTop = -1 * divRef.current.scrollHeight;
+      }
     }, 1)
   }
 
@@ -69,6 +75,16 @@ function App() {
             </div>
           </div>
           { chat.length > 0 && <div ref={divRef} className="w-full border border-black mt-4 max-h-[520px] rounded-md overflow-y-scroll px-3 py-2 flex flex-col-reverse">
+            {loading && <div>
+              <div key="loading" className="flex flex-row mb-2">
+                  <div>
+                    <p>{">"}</p>
+                  </div>
+                  <div className="flex flex-col ml-1">
+                    <p className="overflow-wrap">Loading...</p>
+                  </div>
+                </div>
+            </div>}
             {chat.map((chat, index) => {
               return (
                 <div key={index} className="flex flex-row mb-2">
