@@ -6,6 +6,7 @@ const baseUrl = "http://127.0.0.1:5000"
 function App() {
 
   useEffect(() => {
+    inputRef.current?.focus?.()
     axios.post(`${baseUrl}/reset`, { hi: "hi" }, {
       headers: {
         'Content-Type': 'application/json'
@@ -15,11 +16,12 @@ function App() {
 
   const [question, setQuestion] = useState("")
   const [chat, setChat] = useState([])
-  const [loading, setLoading] = useState(false)
+  const [loading, setQuestionLoading] = useState("")
   const divRef = useRef()
+  const inputRef = useRef()
 
   const sendQuery = async (questionToSend) => {
-    setLoading(true)
+    setQuestionLoading(questionToSend)
     setQuestion("")
     try {
       const response = await axios.post(`${baseUrl}/chat`, { message: questionToSend }, {
@@ -40,13 +42,20 @@ function App() {
       alert("error")
       console.log(e)
     }
-    setLoading(false)
+    setQuestionLoading("")
     setTimeout(() => {
       if (divRef.current) {
         divRef.current.scrollTop = -1 * divRef.current.scrollHeight;
       }
+      inputRef.current?.focus?.()
     }, 1)
   }
+  
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      sendQuery(question);
+    }
+};
 
   return (
     <div className="flex flex-1 items-center justify-center w-full h-full min-h-screen">
@@ -61,7 +70,7 @@ function App() {
             E.g "What's the discord link?"`}
           </p>
           <div className="flex flex-row pt-5">
-            <input value={question} onChange={(e) => setQuestion(e.target.value)} type="text" className="block border border-black h-10 px-5 rounded-md text-base w-full" placeholder="" />
+            <input onKeyDown={handleKeyDown} ref={inputRef} value={question} onChange={(e) => setQuestion(e.target.value)} type="text" className="block border border-black h-10 px-5 rounded-md text-base w-full" placeholder="" />
             <div onClick={() => sendQuery(question)} className="block border border-black h-10 px-5 rounded-md text-base h-10 w-10 flex items-center justify-center ml-2 transition duration-100 ease-in-out hover:opacity-70 active:opacity-80 cursor-pointer">
               <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 512 512">
@@ -90,7 +99,8 @@ function App() {
                   <p>{">"}</p>
                 </div>
                 <div className="flex flex-col ml-1">
-                  <p className="overflow-wrap">Loading...</p>
+                  <p className="opacity-70 mb-2">{loading}</p>
+                  <p className="overflow-wrap opacity-70">Loading...</p>
                 </div>
               </div>
             </div>}
